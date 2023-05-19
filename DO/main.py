@@ -29,14 +29,16 @@ y3 = ds.iloc[:, -3]
 
 # predicting y1: binary on whether delivery is ontime or not
 
+#using one label encoder for road conditions
 le = LabelEncoder()
 X['road_condition'] = le.fit_transform(X['road_condition'])
 
 np.set_printoptions(threshold=sys.maxsize)
-
+#using one hot encoder for mode of transport
 ct = ColumnTransformer(transformers=[('encoder', OneHotEncoder(), [1])], remainder='passthrough')
 X = np.array(ct.fit_transform(X))
 
+#using one hot encoder for destination category
 ct = ColumnTransformer(transformers=[('encoder', OneHotEncoder(), [3])], remainder='passthrough')
 X = np.array(ct.fit_transform(X))
 
@@ -55,6 +57,7 @@ X_test[:, [7, 8, 9, 11, 12, 13]] = scaled_columns
 classifier1 = RandomForestClassifier(n_estimators=20, criterion='gini', random_state=0)
 classifier11 = DecisionTreeClassifier()
 classifier1.fit(X_train, y1_train)
+classifier11.fit(X_train, y1_train)
 y1_pred = classifier1.predict(X_test)
 print(y1_pred)
 
@@ -64,8 +67,10 @@ print("confusion matrix \n", cm)
 print("\n accuracy score: ", accuracy_score(y1_test, y1_pred))
 print(classification_report(y1_test, y1_pred))
 
-print('result on test set', classifier1.score(X_test, y1_test))
-print('result on training set', classifier1.score(X_train, y1_train))
+print('random forest result on test set', classifier1.score(X_test, y1_test))
+print('random forest result on training set', classifier1.score(X_train, y1_train))
+print('decision tree result on test set', classifier11.score(X_test, y1_test))
+print('decision tree result on training set', classifier11.score(X_train, y1_train))
 
 
 # predicting how many days it will take for delivery (regression)

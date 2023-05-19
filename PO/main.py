@@ -109,12 +109,12 @@ print("\naccuracy score: ",accuracy_score(y1_test, y1_pred))
 print(classification_report(y1_test, y1_pred))
 
 # random forest scores
-print("result on test set",classifier11.score(X_test, y1_test))
-print("result on training set", classifier11.score(X_train, y1_train))
+print("random forest result on test set",classifier11.score(X_test, y1_test))
+print("random forest result on training set", classifier11.score(X_train, y1_train))
 
 # decision tree scores
-print("result on test set",classifier1.score(X_test, y1_test))
-print("result on training set", classifier1.score(X_train, y1_train))
+print("knn neighbors result on test set",classifier1.score(X_test, y1_test))
+print("knn neighbors result on training set", classifier1.score(X_train, y1_train))
 ####
 ####
 ####
@@ -164,36 +164,38 @@ print("confusion matrix \n", cm)
 print("\naccuracy score: ", accuracy_score(y2_test, y2_pred))
 print(classification_report(y2_test, y2_pred))
 
-print("result on test set",lr.score(X_test, y2_test))
-print("result on training set",lr.score(X_train, y2_train))
+print("logistic regression result on test set",lr.score(X_test, y2_test))
+print("logistic regression result on training set",lr.score(X_train, y2_train))
+print("random forest result on test set",classifier2.score(X_test, y2_test))
+print("random forest result on training set",classifier2.score(X_train, y2_train))
 
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
 # Using the random forest classifier to predict the packaging thickness (class 0 or 1 or 2)
 print('\n****************predicting the thickness class for packaging**************** \n')
 X_train, X_test, y3_train, y3_test = train_test_split(X, y3, test_size=0.2)
@@ -212,46 +214,46 @@ classifier3.fit(X_train, y3_train, sample_weight=class_weights)
 
 y3_pred = classifier33.predict(X_test)
 
-cm = confusion_matrix(y3_test, y3_pred)
+cm = confusion_matrix(y3_test, y3_pred) #confusion matrix from xgboost
 print("confusion matrix \n", cm)
 print("\naccuracy score: ",accuracy_score(y3_test, y3_pred))
 print(classification_report(y3_test, y3_pred))
 
 # random forest scores
-print("result on test set",classifier33.score(X_test, y3_test))
-print("result on training set",classifier33.score(X_train, y3_train))
+print("xgboost result on test set",classifier33.score(X_test, y3_test))
+print("xgboost result on training set",classifier33.score(X_train, y3_train))
 
 # decision tree scores
-print("result on test set",classifier3.score(X_test, y3_test))
-print("result on training set",classifier3.score(X_train, y3_train))
+print("random forest result on test set",classifier3.score(X_test, y3_test))
+print("random forest result on training set",classifier3.score(X_train, y3_train))
 
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
+# ####
 # using the random forest classifier to predict the type of packaging to be used
 print('\n****************predicting the type of packaging material that should be used**************** \n')
 le = LabelEncoder()
@@ -271,7 +273,7 @@ class_weights = compute_sample_weight('balanced', y4_train)
 classifier4.fit(X_train, y4_train, sample_weight = class_weights)
 classifier44.fit(X_train, y4_train, sample_weight= class_weights)
 
-y4_pred = classifier44.predict(X_test)
+y4_pred = classifier44.predict(X_test) #confusion matrix from random forest
 
 cm = confusion_matrix(y4_test, y4_pred)
 print("confusion matrix \n",cm)
@@ -279,12 +281,12 @@ print("\naccuracy score: ",accuracy_score(y4_test, y4_pred))
 print(classification_report(y4_test, y4_pred))
 
 # scores of random forest classifier
-print("result on test set:",classifier44.score(X_test, y4_test))
-print("result on training set:",classifier44.score(X_train, y4_train))
+print("random forest result on test set:",classifier44.score(X_test, y4_test))
+print("random forest result on training set:",classifier44.score(X_train, y4_train))
 
 # scores of decision tree classifier
-print("result on test set:",classifier4.score(X_test, y4_test))
-print("result on training set:",classifier4.score(X_train, y4_train))
+print("xgboost result on test set:",classifier4.score(X_test, y4_test))
+print("xgboost result on training set:",classifier4.score(X_train, y4_train))
 
 
 y4_pred = le.inverse_transform(y4_pred)
@@ -337,28 +339,31 @@ y4_pred = le.inverse_transform(y4_pred)
 
 #predict for user input
 
-# length = input("\nenter the length of machine part:")
-# width = input("\nenter the width of machine part:")
-# height = input("\nenter the height of machine part:")
-# weight = input("\nenter the weight of machine part:")
-# fragility = input("\nenter the fragility of machine part(0 to 4, 0 is least 4 is most):")
-# atseal = input("\nenter weather or not machine part is atmospherically sealed (0 for no 1 for yes):")
-# stime = input("\nenter the storage time of machine part in days from 1 to 180:")
-# alloy = input("\nenter the composition of machine part, percentage of alloy:")
-# plastic = input("\nenter the composition of machine part, percentage of plastic/polymer:")
-# glass = input("\nenter the composition of machine part, percentage of glass:")
+length = input("\nenter the length of machine part:")
+width = input("\nenter the width of machine part:")
+height = input("\nenter the height of machine part:")
+weight = input("\nenter the weight of machine part:")
+fragility = input("\nenter the fragility of machine part(0 to 4, 0 is least 4 is most):")
+atseal = input("\nenter weather or not machine part is atmospherically sealed (0 for no 1 for yes):")
+stime = input("\nenter the storage time of machine part in days from 1 to 180:")
+alloy = input("\nenter the composition of machine part, percentage of alloy:")
+plastic = input("\nenter the composition of machine part, percentage of plastic/polymer:")
+glass = input("\nenter the composition of machine part, percentage of glass:")
 
-# X_pred = [length,width,height,weight,fragility,atseal,stime,alloy,plastic,glass]
+X_pred = [length,width,height,weight,fragility,stime,alloy,plastic,glass]
 # X_pred = pd.to_numeric(X_pred)
-# print(X_pred)
+print(X_pred)
 
-# y1_user = classifier11.predict(scaler.transform([X_pred]))
-# y2_user = lr.predict(scaler.transform([X_pred]))
-# y3_user = classifier33.predict(scaler.transform([X_pred]))
-# y4_user = classifier44.predict(scaler.transform([X_pred]))
+X_pred = scaler.transform(X_pred)
 
-# print("packaging material to be used:", le.inverse_transform(y4_user))
-# print("package thickness class:", y3_user)
-# print("extra protection:", y2_user)
-# print("package fragility:", y1_user)
+
+y1_user = classifier11.predict([X_pred])
+y2_user = lr.predict([X_pred])
+y3_user = classifier33.predict([X_pred])
+y4_user = classifier44.predict([X_pred])
+
+print("packaging material to be used:", le.inverse_transform(y4_user))
+print("package thickness class:", y3_user)
+print("extra protection:", y2_user)
+print("package fragility:", y1_user)
 
