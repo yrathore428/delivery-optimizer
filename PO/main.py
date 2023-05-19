@@ -339,6 +339,8 @@ y4_pred = le.inverse_transform(y4_pred)
 
 #predict for user input
 
+df = pd.DataFrame()
+
 length = input("\nenter the length of machine part:")
 width = input("\nenter the width of machine part:")
 height = input("\nenter the height of machine part:")
@@ -350,17 +352,24 @@ alloy = input("\nenter the composition of machine part, percentage of alloy:")
 plastic = input("\nenter the composition of machine part, percentage of plastic/polymer:")
 glass = input("\nenter the composition of machine part, percentage of glass:")
 
-X_pred = [length,width,height,weight,fragility,stime,alloy,plastic,glass]
-# X_pred = pd.to_numeric(X_pred)
-print(X_pred)
+user_input  = [length, width, height, weight, fragility, atseal, stime, alloy, plastic, glass]
+user_input = pd.to_numeric(user_input)
+series = pd.Series(user_input) 
+user_input = df._append(series, ignore_index = True)
+print(user_input)
 
-X_pred = scaler.transform(X_pred)
+
+columns_to_scale = user_input.iloc[:, [0, 1, 2, 3, 4, 6, 7, 8, 9]]
+scaled_columns = scaler.transform(columns_to_scale)
+user_input.iloc[:, [0, 1, 2, 3, 4, 6, 7, 8, 9]] = scaled_columns
+
+print(user_input)
 
 
-y1_user = classifier11.predict([X_pred])
-y2_user = lr.predict([X_pred])
-y3_user = classifier33.predict([X_pred])
-y4_user = classifier44.predict([X_pred])
+y1_user = classifier11.predict(user_input)
+y2_user = lr.predict(user_input)
+y3_user = classifier33.predict(user_input)
+y4_user = classifier44.predict(user_input)
 
 print("packaging material to be used:", le.inverse_transform(y4_user))
 print("package thickness class:", y3_user)
