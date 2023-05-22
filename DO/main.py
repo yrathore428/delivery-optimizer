@@ -19,6 +19,7 @@ from sklearn.linear_model import Ridge, Lasso
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
+from sklearn.decomposition import KernelPCA
 import pydot
 
 ds = pd.read_csv('delivery_data.csv')
@@ -79,6 +80,8 @@ print('decision tree result on training set', classifier11.score(X_train, y1_tra
 
 X_train, X_test, y2_train, y2_test = train_test_split(X, y2, test_size=0.2)
 
+
+
 sc = StandardScaler()
 columns_to_scale = X_train[:, [7, 8, 9, 11, 12, 13]]
 scaled_columns = sc.fit_transform(columns_to_scale)
@@ -88,18 +91,22 @@ columns_to_scale = X_test[:, [7, 8, 9, 11, 12, 13]]
 scaled_columns = sc.transform(columns_to_scale)
 X_test[:, [7, 8, 9, 11, 12, 13]] = scaled_columns
 
+# #trying feature reduction to improve regression performance
+# kpca = KernelPCA(n_components=4, kernel= 'rbf')
+# X_train = kpca.fit_transform(X_train)
+# X_test = kpca.transform(X_test)
 
 pipeline = make_pipeline(StandardScaler(), Ridge(alpha=0.9))
 lasso = Lasso(alpha = 0.09)
 poly_reg = PolynomialFeatures(degree=3)
 X_poly = poly_reg.fit_transform(X_train)
 regressor = LinearRegression()
-regressor2 = RandomForestRegressor(max_depth= 5 ,n_estimators= 7, min_samples_split=11, max_leaf_nodes=14)
+regressor2 = RandomForestRegressor(max_depth= 15 ,n_estimators= 7, min_samples_split=11, max_leaf_nodes=14)
 regressor.fit(X_poly, y2_train)
 regressor2.fit(X_train, y2_train)
 pipeline.fit(X_train, y2_train)
 lasso.fit(X_train, y2_train)
-y2_pred = regressor2.predict(X_test).round()
+y2_pred = regressor2.predict(X_test)
 y22_pred = pipeline.predict(X_test)
 y222_pred = regressor.predict(poly_reg.transform(X_test))
 
@@ -119,6 +126,7 @@ print('\npredictions (of regression model) and true value side by side, predicti
 print(np.c_[(y2_pred), y2_test])
 # Calculate the absolute errors
 errors = abs(y2_pred - y2_test)
+np.set_printoptions(threshold=sys.maxsize)
 print('\ndifferences', errors)
 # Print out the mean absolute error (mae)
 print('\nMean Absolute Error:', round(np.mean(errors), 2), 'degrees.')
