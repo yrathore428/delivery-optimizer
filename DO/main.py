@@ -20,6 +20,8 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 from sklearn.decomposition import KernelPCA
+from xgboost import XGBRegressor
+
 import pydot
 
 ds = pd.read_csv('delivery_data.csv')
@@ -100,6 +102,9 @@ pipeline = make_pipeline(StandardScaler(), Ridge(alpha=0.9))
 lasso = Lasso(alpha = 0.09)
 poly_reg = PolynomialFeatures(degree=3)
 X_poly = poly_reg.fit_transform(X_train)
+xgb = XGBRegressor(booster= 'gbtree', learning_rate = 0.5, max_depth = 5, n_estimators = 20)
+xgb.fit(X_train, y2_train)
+y2222_pred = xgb.predict(X_test)
 regressor = LinearRegression()
 regressor2 = RandomForestRegressor(max_depth= 15 ,n_estimators= 7, min_samples_split=11, max_leaf_nodes=14)
 regressor.fit(X_poly, y2_train)
@@ -117,15 +122,15 @@ y222_pred = regressor.predict(poly_reg.transform(X_test))
 
 print('result of random forest regressor on test set', regressor2.score(X_test, y2_test))
 print('result of random forest regressor on training set', regressor2.score(X_train, y2_train))
-print('result of ridge regression on test set', pipeline.score(X_test, y2_test))
-print('result of ridge regression on training set', pipeline.score(X_train, y2_train))
+print('result of xgb regression on test set', xgb.score(X_test, y2_test))
+print('result of xgb regression on training set', xgb.score(X_train, y2_train))
 # print('result of polynomial regression on test set', regressor.score(X_test, y2_test))
 # print('result of polynomial regression on training set', regressor.score(X_train, y2_train))
 print("\nscore of polyreg", r2_score(y2_test, y222_pred))
 print('\npredictions (of regression model) and true value side by side, predictions first')
-print(np.c_[(y2_pred), y2_test])
+print(np.c_[(y2222_pred), y2_test])
 # Calculate the absolute errors
-errors = abs(y2_pred - y2_test)
+errors = abs(y2222_pred - y2_test)
 np.set_printoptions(threshold=sys.maxsize)
 print('\ndifferences', errors)
 # Print out the mean absolute error (mae)

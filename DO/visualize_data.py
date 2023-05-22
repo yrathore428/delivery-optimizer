@@ -7,6 +7,8 @@ X = ds.iloc[:, :-2]
 y1 = ds.iloc[:, -2]
 y2 = ds.iloc[:, -1]
 
+Z = np.arange(1, 1001)
+
 print(X.head())
 print(y1.head())
 print(y2.head())
@@ -17,16 +19,12 @@ print(type(y1))
 print(type(y2))
 print(type(X))
 
-
-
-ax1 = plt.subplot(2,1,1)
-plt.hist(y1)
-plt.title('delivery ontime')
-
-ax2 = plt.subplot(2,1,2)
-plt.scatter(y2 ,X["destination_category"])
+plt.scatter(Z, y2)
+# plt.xlim([1, 1000])
 plt.title('predicted delivery days')
-
+plt.ylim([1, 28])
 plt.show()
-print(y1.describe())
 
+# take a smaller sample instead of plotting the whole 1000
+# with that sample plot the prediction on an error bar graph
+# prediction of days for delivery is still incomplete and accuracy is low!!!!
