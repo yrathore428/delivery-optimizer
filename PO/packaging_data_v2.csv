@@ -1,0 +1,1001 @@
+length,width,height,weight,fragility,atseal,stime,boxsize,stackability,pmaterial,extra_protection,rotation
+97,98,16,524,0,0,27,Large Box,1,plasticwrap,none,2
+91,147,56,422,0,1,77,Extra Large Box,1,plasticbox,none,3
+11,99,214,566,1,1,100,Giant Box,1,plasticbox,foambeans,1
+64,37,202,546,1,0,158,Giant Box,1,plasticwrap,bubblewrap,1
+142,66,83,622,1,1,113,Extra Large Box,0,plasticbox,foambeans,1
+163,76,26,415,1,0,148,Giant Box,1,plasticbox,instapak,1
+26,43,54,236,1,1,144,Medium Box,0,plasticbox,instapak,1
+110,110,204,593,0,1,17,Giant Box,1,plasticbox,none,3
+178,91,29,190,1,1,168,Giant Box,0,plasticbox,paperfill,1
+36,124,112,603,1,1,86,Extra Large Box,0,plasticbox,airpillow,1
+164,20,71,405,0,0,150,Giant Box,0,plasticbox,instapak,2
+56,185,139,657,0,1,63,Giant Box,1,plasticbox,none,2
+38,88,140,579,0,1,159,Extra Large Box,1,plasticbox,paperfill,2
+40,18,140,341,1,1,109,Extra Large Box,0,plasticbox,foambeans,1
+165,10,11,469,1,1,176,Giant Box,0,plasticbox,paperfill,1
+20,42,178,605,1,1,54,Giant Box,0,plasticbox,airpillow,1
+49,52,22,621,0,0,22,Medium Box,1,plasticwrap,none,2
+120,181,200,511,0,0,93,Giant Box,0,plasticwrap,bubblewrap,2
+82,126,66,369,1,1,67,Extra Large Box,1,polyethylene,instapak,1
+66,109,124,145,0,0,61,Extra Large Box,1,corrugated,none,2
+114,104,66,374,0,0,171,Large Box,0,cardboard,bubblewrap,2
+49,200,200,648,0,1,106,Giant Box,0,plasticbox,foambeans,3
+25,134,64,201,0,1,167,Extra Large Box,0,plasticbox,paperfill,3
+79,135,16,73,1,0,74,Extra Large Box,0,corrugated,foambeans,1
+50,8,122,608,0,1,83,Extra Large Box,1,plasticbox,none,3
+30,77,157,670,0,1,112,Extra Large Box,0,plasticbox,foambeans,2
+196,207,161,553,1,1,168,Giant Box,0,plasticbox,paperfill,1
+97,41,41,367,0,0,88,Large Box,1,cardboard,none,2
+180,115,220,408,1,0,7,Giant Box,1,plasticbox,airpillow,1
+116,159,134,312,0,1,129,Extra Large Box,1,plasticbox,instapak,3
+209,198,183,149,1,1,125,Giant Box,0,plasticbox,instapak,1
+66,37,214,206,0,0,157,Giant Box,0,cardboard,bubblewrap,3
+5,203,129,311,1,1,64,Giant Box,0,polyethylene,instapak,1
+113,5,97,406,1,0,157,Large Box,0,plasticbox,bubblewrap,1
+63,110,154,467,0,1,90,Extra Large Box,1,plasticbox,none,3
+157,218,171,482,0,1,138,Giant Box,0,plasticbox,instapak,3
+201,209,203,310,1,1,165,Giant Box,1,plasticbox,paperfill,1
+81,12,47,554,1,1,88,Large Box,1,plasticbox,airpillow,1
+36,190,111,475,1,0,60,Giant Box,1,plasticbox,airpillow,1
+113,119,73,352,0,0,94,Large Box,1,cardboard,bubblewrap,3
+56,203,136,130,0,1,70,Giant Box,1,polyethylene,none,2
+23,67,220,557,1,0,124,Giant Box,0,plasticwrap,paperfill,1
+177,132,83,110,1,1,139,Giant Box,0,plasticbox,instapak,1
+9,113,220,221,0,1,92,Giant Box,0,plasticbox,foambeans,2
+166,23,115,531,1,0,110,Giant Box,0,plasticwrap,bubblewrap,1
+172,151,68,374,0,1,171,Giant Box,1,plasticbox,paperfill,3
+163,26,179,153,0,0,93,Giant Box,0,cardboard,bubblewrap,3
+134,83,162,306,1,0,96,Giant Box,1,cardboard,bubblewrap,1
+124,194,125,379,0,1,159,Giant Box,1,plasticbox,paperfill,3
+159,211,171,33,1,1,180,Giant Box,0,plasticbox,paperfill,1
+29,186,60,200,0,1,20,Giant Box,1,polyethylene,none,3
+87,164,192,273,0,1,89,Giant Box,1,polyethylene,none,2
+54,18,112,211,1,1,156,Large Box,0,plasticbox,paperfill,1
+107,5,132,697,0,0,73,Extra Large Box,1,plasticwrap,none,3
+204,58,189,689,0,0,161,Giant Box,1,plasticwrap,bubblewrap,3
+92,53,60,291,1,1,165,Large Box,0,plasticbox,paperfill,1
+219,13,17,435,1,0,61,Giant Box,1,plasticbox,airpillow,1
+134,217,5,586,0,1,54,Giant Box,1,plasticbox,none,2
+105,35,113,567,1,1,92,Large Box,1,plasticbox,foambeans,1
+173,182,133,556,1,0,29,Giant Box,0,plasticwrap,bubblewrap,1
+165,43,51,529,0,0,11,Giant Box,1,plasticwrap,none,3
+152,160,101,526,0,0,61,Extra Large Box,1,plasticwrap,none,2
+42,150,22,670,1,1,55,Extra Large Box,0,plasticbox,airpillow,1
+209,163,209,373,1,0,166,Giant Box,0,cardboard,bubblewrap,1
+116,204,182,536,1,0,139,Giant Box,1,plasticwrap,paperfill,1
+151,216,99,545,1,1,151,Giant Box,0,plasticbox,paperfill,1
+65,157,139,73,1,1,52,Extra Large Box,0,polyethylene,instapak,1
+151,90,80,415,1,0,125,Extra Large Box,0,plasticbox,instapak,1
+105,10,170,73,1,1,83,Giant Box,0,polyethylene,instapak,1
+129,186,69,130,0,1,125,Giant Box,0,plasticbox,instapak,2
+98,28,118,207,1,0,176,Large Box,1,cardboard,bubblewrap,1
+150,192,149,104,1,0,163,Giant Box,1,corrugated,bubblewrap,1
+10,183,71,651,0,1,16,Giant Box,1,plasticbox,none,3
+57,87,110,249,0,0,152,Large Box,1,cardboard,bubblewrap,2
+131,74,123,507,1,1,179,Extra Large Box,0,plasticbox,paperfill,1
+220,17,213,340,0,1,26,Giant Box,1,polyethylene,none,3
+193,201,212,112,0,0,61,Giant Box,1,corrugated,none,2
+67,105,192,203,1,0,109,Giant Box,0,cardboard,bubblewrap,1
+98,5,158,632,1,0,71,Extra Large Box,1,plasticwrap,bubblewrap,1
+173,102,177,31,1,0,11,Giant Box,0,paperbox,bubblewrap,1
+88,11,52,498,0,1,156,Large Box,1,plasticbox,paperfill,3
+192,99,23,647,0,0,169,Giant Box,0,plasticwrap,bubblewrap,2
+54,152,207,484,1,0,28,Giant Box,0,plasticbox,airpillow,1
+9,77,74,360,0,0,148,Large Box,1,cardboard,instapak,3
+205,14,39,226,0,0,60,Giant Box,1,cardboard,none,3
+121,100,79,306,0,0,30,Extra Large Box,1,cardboard,none,3
+162,132,189,653,1,0,103,Giant Box,0,plasticwrap,bubblewrap,1
+203,114,156,283,1,1,175,Giant Box,1,plasticbox,paperfill,1
+148,214,112,18,1,1,25,Giant Box,0,polyethylene,instapak,1
+65,103,197,186,1,0,170,Giant Box,0,cardboard,bubblewrap,1
+213,161,28,295,1,1,117,Giant Box,1,plasticbox,foambeans,1
+160,160,63,295,0,0,86,Extra Large Box,1,cardboard,none,3
+39,151,120,352,1,0,88,Extra Large Box,0,cardboard,airpillow,1
+95,182,49,203,1,1,120,Giant Box,0,plasticbox,foambeans,1
+133,156,197,482,0,0,14,Giant Box,1,plasticbox,none,2
+148,214,11,64,1,0,2,Giant Box,0,corrugated,foambeans,1
+112,66,81,544,0,0,44,Large Box,1,plasticwrap,none,2
+26,209,118,6,1,0,75,Giant Box,0,paperbox,bubblewrap,1
+5,61,37,55,1,0,166,Medium Box,1,corrugated,bubblewrap,1
+97,61,220,505,1,1,73,Giant Box,0,plasticbox,airpillow,1
+166,69,43,604,0,0,161,Giant Box,0,plasticwrap,bubblewrap,3
+139,93,139,660,1,1,16,Extra Large Box,0,plasticbox,airpillow,1
+175,159,214,461,1,0,119,Giant Box,1,plasticbox,foambeans,1
+151,161,93,392,0,0,126,Giant Box,1,cardboard,instapak,3
+158,48,31,452,0,0,4,Extra Large Box,1,plasticbox,none,2
+133,73,65,138,0,0,32,Extra Large Box,1,corrugated,none,2
+137,67,157,694,0,0,88,Extra Large Box,1,plasticwrap,none,2
+163,176,162,663,0,0,83,Giant Box,1,plasticwrap,none,2
+52,8,149,604,0,1,10,Extra Large Box,1,plasticbox,none,2
+178,219,168,642,1,0,156,Giant Box,0,plasticwrap,bubblewrap,1
+138,79,126,469,0,1,149,Extra Large Box,1,plasticbox,instapak,3
+159,152,36,468,1,1,149,Extra Large Box,1,plasticbox,instapak,1
+214,189,107,279,0,1,44,Giant Box,1,polyethylene,none,3
+207,137,58,243,1,1,139,Giant Box,1,plasticbox,instapak,1
+95,98,7,37,0,1,75,Large Box,1,polyethylene,none,3
+89,208,15,640,1,1,36,Giant Box,0,plasticbox,airpillow,1
+158,170,200,133,1,1,81,Giant Box,1,polyethylene,instapak,1
+147,25,97,31,1,0,125,Extra Large Box,1,paperbox,instapak,1
+183,9,70,569,1,1,110,Giant Box,0,plasticbox,foambeans,1
+57,202,143,176,1,0,67,Giant Box,1,cardboard,airpillow,1
+165,114,192,580,1,0,142,Giant Box,0,plasticwrap,paperfill,1
+100,75,47,687,0,1,150,Large Box,0,plasticbox,instapak,2
+184,16,214,566,1,0,105,Giant Box,1,plasticwrap,bubblewrap,1
+163,140,88,278,0,1,79,Giant Box,1,polyethylene,none,3
+171,27,32,13,0,1,145,Giant Box,0,plasticbox,instapak,3
+154,135,198,333,0,0,5,Giant Box,1,cardboard,none,3
+8,64,171,600,1,1,68,Giant Box,1,plasticbox,airpillow,1
+90,36,109,216,0,1,147,Large Box,1,plasticbox,instapak,2
+100,119,163,493,1,0,134,Giant Box,0,plasticbox,instapak,1
+153,77,216,140,0,1,161,Giant Box,1,plasticbox,paperfill,2
+14,86,46,487,0,0,165,Large Box,0,plasticbox,bubblewrap,3
+140,87,219,189,1,1,162,Giant Box,0,plasticbox,paperfill,1
+52,23,97,558,1,0,62,Large Box,0,plasticwrap,bubblewrap,1
+6,83,130,127,0,1,127,Extra Large Box,0,plasticbox,instapak,2
+144,219,211,532,0,1,179,Giant Box,1,plasticbox,paperfill,2
+100,202,211,117,1,0,5,Giant Box,1,corrugated,foambeans,1
+147,180,68,105,0,1,105,Giant Box,1,plasticbox,foambeans,2
+105,148,27,88,0,0,140,Extra Large Box,1,corrugated,instapak,2
+59,212,171,654,1,1,72,Giant Box,1,plasticbox,airpillow,1
+45,63,172,447,0,1,70,Giant Box,1,plasticbox,none,2
+69,212,176,259,0,0,46,Giant Box,1,cardboard,none,2
+137,100,59,321,1,0,115,Extra Large Box,0,cardboard,bubblewrap,1
+14,61,170,534,0,1,24,Giant Box,1,plasticbox,none,3
+24,141,163,466,1,0,90,Giant Box,0,plasticbox,airpillow,1
+127,143,186,390,1,0,44,Giant Box,0,cardboard,airpillow,1
+26,220,207,226,1,1,29,Giant Box,0,polyethylene,instapak,1
+63,128,153,262,1,0,33,Extra Large Box,0,cardboard,airpillow,1
+190,185,186,147,0,1,127,Giant Box,1,plasticbox,instapak,3
+31,96,175,513,0,0,56,Giant Box,1,plasticwrap,none,3
+102,100,134,355,0,0,147,Extra Large Box,1,cardboard,instapak,3
+105,59,211,353,0,0,13,Giant Box,1,cardboard,none,3
+34,61,153,469,0,1,104,Extra Large Box,1,plasticbox,foambeans,3
+98,81,163,68,0,0,60,Giant Box,1,corrugated,none,3
+184,205,104,290,0,1,145,Giant Box,1,plasticbox,instapak,3
+8,121,144,571,1,1,113,Extra Large Box,1,plasticbox,foambeans,1
+201,146,52,143,1,1,142,Giant Box,1,plasticbox,instapak,1
+151,89,130,679,0,0,18,Extra Large Box,1,plasticwrap,none,3
+53,158,106,491,0,0,143,Extra Large Box,1,plasticbox,instapak,2
+208,71,38,237,0,0,31,Giant Box,1,cardboard,none,2
+201,112,183,116,1,0,39,Giant Box,0,corrugated,foambeans,1
+126,42,52,331,1,1,98,Extra Large Box,0,plasticbox,foambeans,1
+21,183,148,535,0,0,168,Giant Box,0,plasticwrap,bubblewrap,3
+135,76,210,36,0,1,15,Giant Box,1,polyethylene,none,3
+78,63,96,699,0,0,105,Large Box,1,plasticwrap,bubblewrap,3
+24,157,77,161,1,1,91,Extra Large Box,1,plasticbox,foambeans,1
+14,160,172,449,1,0,13,Giant Box,0,plasticbox,airpillow,1
+47,72,193,113,1,0,93,Giant Box,0,corrugated,bubblewrap,1
+154,103,29,86,0,0,72,Extra Large Box,1,corrugated,none,2
+49,62,103,643,1,1,131,Large Box,1,plasticbox,instapak,1
+35,160,94,547,0,0,1,Extra Large Box,1,plasticwrap,none,3
+7,24,47,268,1,0,39,Medium Box,0,cardboard,airpillow,1
+19,181,173,204,1,1,121,Giant Box,1,plasticbox,instapak,1
+51,101,6,72,0,0,142,Large Box,0,corrugated,instapak,3
+31,177,162,627,1,1,38,Giant Box,1,plasticbox,airpillow,1
+124,202,165,415,1,0,152,Giant Box,0,plasticbox,bubblewrap,1
+179,139,114,398,0,0,178,Giant Box,0,cardboard,bubblewrap,3
+204,96,120,482,1,0,148,Giant Box,0,plasticbox,instapak,1
+194,206,58,515,1,0,36,Giant Box,0,plasticwrap,bubblewrap,1
+108,16,9,650,0,1,165,Large Box,0,plasticbox,paperfill,3
+136,115,121,59,1,0,30,Extra Large Box,1,corrugated,foambeans,1
+15,209,45,262,0,1,29,Giant Box,1,polyethylene,none,3
+22,106,138,455,1,0,163,Extra Large Box,0,plasticbox,bubblewrap,1
+48,186,177,67,1,0,103,Giant Box,0,corrugated,bubblewrap,1
+142,153,196,59,0,0,31,Giant Box,1,corrugated,none,2
+213,217,32,656,1,1,65,Giant Box,0,plasticbox,airpillow,1
+40,172,209,158,1,0,7,Giant Box,1,cardboard,airpillow,1
+193,147,211,442,0,1,114,Giant Box,1,plasticbox,foambeans,3
+119,152,81,86,1,1,31,Extra Large Box,0,polyethylene,instapak,1
+179,99,75,43,1,1,147,Giant Box,1,plasticbox,instapak,1
+198,52,66,183,0,1,35,Giant Box,1,polyethylene,none,3
+131,156,197,160,0,0,34,Giant Box,1,cardboard,none,3
+170,117,143,394,1,0,96,Giant Box,1,cardboard,bubblewrap,1
+33,152,125,621,1,1,58,Extra Large Box,1,plasticbox,airpillow,1
+40,174,72,197,0,1,31,Giant Box,1,polyethylene,none,2
+72,200,143,232,1,0,51,Giant Box,0,cardboard,airpillow,1
+90,140,205,119,1,1,33,Giant Box,1,polyethylene,instapak,1
+204,189,74,437,1,1,140,Giant Box,0,plasticbox,instapak,1
+21,194,57,553,0,0,84,Giant Box,1,plasticwrap,none,2
+174,54,196,203,1,0,24,Giant Box,1,cardboard,airpillow,1
+53,123,102,481,0,0,8,Extra Large Box,1,plasticbox,none,3
+213,43,143,108,0,0,148,Giant Box,0,corrugated,instapak,3
+176,34,17,457,1,0,125,Giant Box,0,plasticbox,instapak,1
+61,149,185,268,0,1,156,Giant Box,0,plasticbox,paperfill,3
+204,51,16,391,1,1,33,Giant Box,0,polyethylene,instapak,1
+172,34,158,207,1,1,47,Giant Box,0,polyethylene,instapak,1
+166,150,216,78,0,1,174,Giant Box,0,plasticbox,paperfill,2
+17,154,94,352,0,0,41,Extra Large Box,1,cardboard,none,2
+21,84,20,594,1,0,87,Large Box,1,plasticwrap,bubblewrap,1
+96,138,51,179,0,0,49,Extra Large Box,1,cardboard,none,2
+53,136,56,362,0,1,63,Extra Large Box,1,polyethylene,none,2
+73,60,165,231,0,0,114,Giant Box,1,cardboard,bubblewrap,2
+131,102,220,6,1,0,43,Giant Box,0,paperbox,bubblewrap,1
+5,182,29,667,1,1,54,Giant Box,0,plasticbox,airpillow,1
+68,220,39,62,0,0,36,Giant Box,1,corrugated,none,2
+145,30,163,449,0,0,130,Giant Box,1,plasticbox,instapak,3
+117,116,11,664,0,0,39,Large Box,1,plasticwrap,none,2
+108,67,213,117,1,1,86,Giant Box,0,polyethylene,instapak,1
+91,176,138,548,0,1,82,Giant Box,1,plasticbox,none,3
+210,162,206,238,1,1,81,Giant Box,1,polyethylene,instapak,1
+50,22,21,226,1,0,139,Medium Box,1,cardboard,instapak,1
+167,20,154,38,1,0,6,Giant Box,0,paperbox,bubblewrap,1
+60,56,199,600,0,1,7,Giant Box,1,plasticbox,none,3
+125,220,182,6,0,0,91,Giant Box,0,paperbox,bubblewrap,2
+202,145,124,406,1,0,40,Giant Box,1,plasticbox,airpillow,1
+205,120,9,520,1,1,171,Giant Box,1,plasticbox,paperfill,1
+177,59,50,536,0,1,13,Giant Box,1,plasticbox,none,3
+14,134,145,490,0,0,100,Extra Large Box,1,plasticbox,foambeans,2
+72,119,147,252,0,0,86,Extra Large Box,1,cardboard,none,3
+26,107,165,173,1,0,23,Giant Box,1,cardboard,airpillow,1
+154,209,12,482,1,1,145,Giant Box,0,plasticbox,instapak,1
+187,18,16,238,1,0,55,Giant Box,0,cardboard,airpillow,1
+213,73,72,461,0,1,168,Giant Box,0,plasticbox,paperfill,2
+166,49,185,219,1,0,147,Giant Box,0,cardboard,instapak,1
+22,76,72,402,0,1,68,Large Box,1,plasticbox,none,2
+195,19,58,293,0,1,77,Giant Box,1,polyethylene,none,2
+9,206,151,350,0,0,8,Giant Box,1,cardboard,none,3
+89,178,158,354,1,1,36,Giant Box,0,polyethylene,instapak,1
+29,76,143,172,1,0,36,Extra Large Box,0,cardboard,airpillow,1
+100,63,105,15,0,1,135,Large Box,0,plasticbox,instapak,3
+143,105,35,338,1,1,94,Extra Large Box,0,plasticbox,foambeans,1
+54,53,192,23,0,0,68,Giant Box,1,paperbox,none,3
+107,179,42,9,0,1,38,Giant Box,1,polyethylene,none,3
+191,57,114,605,0,0,156,Giant Box,0,plasticwrap,bubblewrap,2
+59,147,53,595,0,1,35,Extra Large Box,1,plasticbox,none,3
+189,19,39,576,0,1,59,Giant Box,1,plasticbox,none,3
+91,75,161,667,1,1,85,Giant Box,0,plasticbox,airpillow,1
+74,35,80,636,1,1,100,Large Box,0,plasticbox,foambeans,1
+126,163,8,681,1,1,148,Giant Box,1,plasticbox,instapak,1
+56,213,99,135,1,1,43,Giant Box,1,polyethylene,instapak,1
+144,37,142,570,1,0,42,Extra Large Box,1,plasticwrap,bubblewrap,1
+152,60,51,574,0,0,74,Extra Large Box,1,plasticwrap,none,3
+70,43,103,51,0,0,47,Large Box,1,corrugated,none,2
+82,135,171,34,1,1,38,Giant Box,1,polyethylene,instapak,1
+52,162,34,511,0,1,68,Giant Box,1,plasticbox,none,3
+211,25,19,557,0,0,158,Giant Box,0,plasticwrap,bubblewrap,3
+138,154,83,111,0,0,138,Extra Large Box,0,corrugated,instapak,2
+36,63,213,335,1,0,71,Giant Box,1,cardboard,airpillow,1
+52,199,126,669,0,1,72,Giant Box,1,plasticbox,none,3
+61,45,15,658,0,1,174,Medium Box,0,plasticbox,paperfill,3
+202,159,62,269,1,1,91,Giant Box,1,plasticbox,foambeans,1
+164,163,58,447,1,0,123,Giant Box,0,plasticbox,instapak,1
+134,162,7,323,0,1,24,Giant Box,1,polyethylene,none,3
+14,19,193,670,0,0,47,Giant Box,1,plasticwrap,none,3
+62,57,187,564,0,0,121,Giant Box,1,plasticwrap,paperfill,2
+58,78,77,550,1,0,55,Large Box,0,plasticwrap,bubblewrap,1
+153,123,213,321,1,1,33,Giant Box,0,polyethylene,instapak,1
+88,100,175,154,0,1,173,Giant Box,1,plasticbox,paperfill,3
+58,145,196,23,1,0,124,Giant Box,1,paperbox,instapak,1
+8,45,73,532,1,1,69,Large Box,0,plasticbox,airpillow,1
+10,174,78,24,1,0,19,Giant Box,0,paperbox,bubblewrap,1
+155,93,12,383,0,0,117,Extra Large Box,1,cardboard,bubblewrap,3
+128,8,197,79,1,1,64,Giant Box,0,polyethylene,instapak,1
+73,5,113,205,1,0,162,Large Box,0,cardboard,bubblewrap,1
+33,190,11,94,0,0,113,Giant Box,1,corrugated,bubblewrap,3
+52,186,107,392,0,1,71,Giant Box,1,polyethylene,none,3
+17,215,86,262,0,0,169,Giant Box,1,cardboard,bubblewrap,2
+31,50,44,357,1,1,58,Medium Box,1,polyethylene,instapak,1
+8,168,126,380,1,0,177,Giant Box,1,cardboard,bubblewrap,1
+46,66,135,611,0,0,82,Extra Large Box,1,plasticwrap,none,3
+37,142,81,526,1,0,152,Extra Large Box,1,plasticwrap,bubblewrap,1
+47,182,123,470,1,1,127,Giant Box,1,plasticbox,instapak,1
+87,155,9,689,0,0,41,Extra Large Box,1,plasticwrap,none,3
+24,54,164,360,1,1,109,Giant Box,0,plasticbox,foambeans,1
+192,92,140,611,0,0,55,Giant Box,1,plasticwrap,none,2
+39,62,167,491,1,1,117,Giant Box,1,plasticbox,foambeans,1
+91,42,170,495,1,1,7,Giant Box,1,plasticbox,airpillow,1
+127,210,150,693,1,1,172,Giant Box,0,plasticbox,paperfill,1
+75,192,74,684,0,1,71,Giant Box,1,plasticbox,none,2
+170,56,162,11,1,0,22,Giant Box,1,paperbox,bubblewrap,1
+95,7,88,208,1,1,130,Large Box,1,plasticbox,instapak,1
+100,84,23,95,1,1,85,Large Box,0,polyethylene,instapak,1
+179,28,215,656,1,1,78,Giant Box,0,plasticbox,airpillow,1
+99,152,127,223,0,0,49,Extra Large Box,1,cardboard,none,2
+129,153,98,531,0,0,99,Extra Large Box,0,plasticwrap,bubblewrap,2
+197,180,9,679,0,1,127,Giant Box,0,plasticbox,instapak,3
+136,98,135,432,1,1,116,Extra Large Box,0,plasticbox,foambeans,1
+150,95,197,439,0,1,105,Giant Box,0,plasticbox,foambeans,2
+109,38,90,527,0,0,151,Large Box,0,plasticwrap,bubblewrap,3
+114,122,91,626,1,1,10,Extra Large Box,0,plasticbox,airpillow,1
+7,5,172,233,1,1,83,Giant Box,1,polyethylene,instapak,1
+97,101,49,589,0,1,114,Large Box,1,plasticbox,foambeans,3
+127,106,46,307,0,1,14,Extra Large Box,1,polyethylene,none,3
+12,174,116,263,0,1,7,Giant Box,1,polyethylene,none,2
+216,100,28,164,1,1,68,Giant Box,0,polyethylene,instapak,1
+203,94,7,513,1,1,46,Giant Box,0,plasticbox,airpillow,1
+134,98,161,38,1,0,92,Giant Box,0,paperbox,bubblewrap,1
+17,187,37,462,1,1,165,Giant Box,0,plasticbox,paperfill,1
+114,46,105,564,1,0,11,Large Box,1,plasticwrap,bubblewrap,1
+150,86,147,444,0,1,27,Extra Large Box,1,plasticbox,none,3
+48,197,176,680,1,1,173,Giant Box,1,plasticbox,paperfill,1
+115,215,100,24,1,1,59,Giant Box,1,polyethylene,instapak,1
+78,119,79,535,1,0,150,Large Box,1,plasticwrap,paperfill,1
+83,32,109,442,1,1,1,Large Box,0,plasticbox,airpillow,1
+161,191,90,515,1,1,95,Giant Box,0,plasticbox,foambeans,1
+125,190,83,271,0,1,76,Giant Box,1,polyethylene,none,3
+39,133,116,101,1,1,59,Extra Large Box,0,polyethylene,instapak,1
+67,181,87,32,1,0,9,Giant Box,1,paperbox,bubblewrap,1
+154,185,9,604,1,1,34,Giant Box,0,plasticbox,airpillow,1
+53,215,38,80,1,0,83,Giant Box,1,corrugated,foambeans,1
+43,177,177,137,1,0,105,Giant Box,0,corrugated,bubblewrap,1
+204,107,103,207,1,0,8,Giant Box,1,cardboard,airpillow,1
+121,103,14,548,0,0,168,Extra Large Box,0,plasticwrap,bubblewrap,3
+59,99,55,34,1,1,139,Large Box,0,plasticbox,instapak,1
+69,72,48,198,1,0,76,Large Box,1,cardboard,airpillow,1
+138,53,191,318,0,0,62,Giant Box,1,cardboard,none,3
+85,193,16,630,0,1,29,Giant Box,1,plasticbox,none,3
+212,79,6,586,1,1,27,Giant Box,1,plasticbox,airpillow,1
+13,211,139,551,1,1,89,Giant Box,1,plasticbox,airpillow,1
+70,9,178,348,0,1,6,Giant Box,1,polyethylene,none,3
+35,131,48,515,1,0,105,Extra Large Box,1,plasticwrap,bubblewrap,1
+31,52,106,171,1,0,13,Large Box,1,cardboard,airpillow,1
+105,153,135,549,1,0,86,Extra Large Box,0,plasticwrap,bubblewrap,1
+208,49,197,200,0,0,86,Giant Box,1,cardboard,none,3
+15,18,125,297,1,1,21,Extra Large Box,0,polyethylene,instapak,1
+191,15,86,582,1,0,77,Giant Box,0,plasticwrap,bubblewrap,1
+143,72,181,566,1,1,30,Giant Box,1,plasticbox,airpillow,1
+156,210,175,233,0,1,108,Giant Box,0,plasticbox,foambeans,3
+181,35,219,79,0,0,10,Giant Box,1,corrugated,none,2
+8,82,44,542,0,1,8,Large Box,1,plasticbox,none,3
+25,97,187,549,1,0,59,Giant Box,1,plasticwrap,bubblewrap,1
+38,98,167,351,0,0,21,Giant Box,1,cardboard,none,2
+174,66,206,608,1,1,31,Giant Box,0,plasticbox,airpillow,1
+202,189,113,491,1,1,62,Giant Box,1,plasticbox,airpillow,1
+106,150,123,378,1,0,61,Extra Large Box,0,cardboard,airpillow,1
+114,164,10,428,1,1,110,Giant Box,0,plasticbox,foambeans,1
+143,151,10,527,1,1,27,Extra Large Box,0,plasticbox,airpillow,1
+101,53,156,48,0,0,117,Extra Large Box,1,paperbox,bubblewrap,2
+111,188,206,130,1,1,31,Giant Box,0,polyethylene,instapak,1
+34,144,140,356,0,1,147,Extra Large Box,1,plasticbox,instapak,2
+165,116,52,20,0,0,22,Giant Box,1,paperbox,none,3
+28,178,96,223,0,0,36,Giant Box,1,cardboard,none,2
+116,169,24,32,1,1,111,Giant Box,0,plasticbox,foambeans,1
+169,28,13,434,0,0,92,Giant Box,1,plasticbox,foambeans,3
+22,210,204,464,0,1,137,Giant Box,0,plasticbox,instapak,2
+136,110,106,58,0,0,121,Extra Large Box,1,corrugated,instapak,2
+12,207,105,603,1,0,15,Giant Box,0,plasticwrap,bubblewrap,1
+165,152,206,160,0,1,27,Giant Box,1,polyethylene,none,2
+28,191,170,604,1,1,125,Giant Box,1,plasticbox,instapak,1
+179,21,18,600,0,0,148,Giant Box,0,plasticwrap,paperfill,3
+93,167,151,284,0,0,96,Giant Box,1,cardboard,bubblewrap,3
+104,128,16,38,1,1,6,Extra Large Box,1,polyethylene,instapak,1
+44,29,60,82,0,1,120,Medium Box,1,plasticbox,foambeans,3
+76,119,87,224,0,1,11,Large Box,1,polyethylene,none,3
+43,123,43,594,1,1,81,Extra Large Box,0,plasticbox,airpillow,1
+17,12,96,298,0,1,156,Large Box,0,plasticbox,paperfill,3
+186,109,40,298,0,1,28,Giant Box,1,polyethylene,none,2
+92,198,56,426,0,1,30,Giant Box,1,plasticbox,none,2
+52,146,151,571,0,0,91,Extra Large Box,1,plasticwrap,bubblewrap,3
+63,82,194,9,0,1,14,Giant Box,1,polyethylene,none,3
+195,25,75,602,0,0,147,Giant Box,1,plasticwrap,paperfill,2
+200,158,87,635,0,0,77,Giant Box,1,plasticwrap,none,2
+67,42,40,681,1,1,23,Medium Box,1,plasticbox,airpillow,1
+124,83,145,145,1,0,52,Extra Large Box,0,corrugated,foambeans,1
+106,17,68,133,0,0,55,Large Box,1,corrugated,none,3
+48,124,193,358,1,1,169,Giant Box,1,plasticbox,paperfill,1
+178,99,200,7,1,0,47,Giant Box,1,paperbox,bubblewrap,1
+103,10,192,307,1,0,36,Giant Box,0,cardboard,airpillow,1
+132,219,168,108,0,1,101,Giant Box,0,plasticbox,foambeans,2
+158,102,9,412,0,1,79,Extra Large Box,1,plasticbox,none,3
+214,146,7,24,0,1,83,Giant Box,1,polyethylene,none,2
+199,214,18,641,0,1,77,Giant Box,1,plasticbox,none,2
+32,49,58,100,0,0,176,Medium Box,1,corrugated,bubblewrap,3
+157,74,61,272,1,1,68,Extra Large Box,1,polyethylene,instapak,1
+139,36,147,352,1,1,45,Extra Large Box,0,polyethylene,instapak,1
+195,110,114,641,1,1,27,Giant Box,1,plasticbox,airpillow,1
+47,72,119,576,1,0,104,Large Box,1,plasticwrap,bubblewrap,1
+100,176,143,372,1,0,131,Giant Box,1,cardboard,instapak,1
+179,175,54,88,1,1,6,Giant Box,1,polyethylene,instapak,1
+138,219,82,306,0,0,162,Giant Box,0,cardboard,bubblewrap,3
+192,102,210,654,1,0,67,Giant Box,0,plasticwrap,bubblewrap,1
+74,104,137,697,0,0,84,Extra Large Box,1,plasticwrap,none,2
+19,134,181,317,0,1,67,Giant Box,1,polyethylene,none,2
+28,177,159,551,1,1,102,Giant Box,1,plasticbox,foambeans,1
+57,9,142,639,0,0,95,Extra Large Box,1,plasticwrap,bubblewrap,2
+44,188,73,219,1,0,7,Giant Box,1,cardboard,airpillow,1
+202,141,40,571,1,0,112,Giant Box,0,plasticwrap,bubblewrap,1
+95,25,98,329,1,1,112,Large Box,1,plasticbox,foambeans,1
+159,172,40,157,0,1,24,Giant Box,1,polyethylene,none,3
+93,108,45,151,0,1,9,Large Box,1,polyethylene,none,2
+146,170,51,187,0,0,98,Giant Box,0,cardboard,bubblewrap,2
+52,162,175,226,1,0,50,Giant Box,1,cardboard,airpillow,1
+5,214,68,621,1,0,99,Giant Box,0,plasticwrap,bubblewrap,1
+150,200,80,413,0,1,34,Giant Box,1,plasticbox,none,2
+106,65,102,486,1,0,20,Large Box,0,plasticbox,airpillow,1
+196,38,19,679,1,0,76,Giant Box,1,plasticwrap,bubblewrap,1
+169,201,184,135,1,0,160,Giant Box,1,corrugated,bubblewrap,1
+67,149,130,233,0,1,11,Extra Large Box,1,polyethylene,none,2
+206,144,38,102,1,1,113,Giant Box,1,plasticbox,foambeans,1
+71,12,169,149,0,1,19,Giant Box,1,polyethylene,none,2
+214,131,28,482,0,0,20,Giant Box,1,plasticbox,none,2
+57,176,215,111,0,1,17,Giant Box,1,polyethylene,none,3
+205,202,160,537,0,0,95,Giant Box,1,plasticwrap,bubblewrap,2
+61,63,214,280,1,1,105,Giant Box,1,plasticbox,foambeans,1
+182,72,148,371,1,1,75,Giant Box,1,polyethylene,instapak,1
+175,159,87,385,1,1,84,Giant Box,1,polyethylene,instapak,1
+211,8,134,75,1,0,28,Giant Box,1,corrugated,foambeans,1
+179,59,33,139,0,1,55,Giant Box,1,polyethylene,none,2
+107,50,180,575,1,1,135,Giant Box,1,plasticbox,instapak,1
+144,128,6,496,1,1,167,Extra Large Box,0,plasticbox,paperfill,1
+54,51,6,136,1,0,65,Medium Box,0,corrugated,foambeans,1
+8,206,185,19,1,0,130,Giant Box,1,paperbox,instapak,1
+50,67,46,290,1,0,116,Medium Box,0,cardboard,bubblewrap,1
+115,171,188,437,1,1,98,Giant Box,1,plasticbox,foambeans,1
+155,112,112,453,1,0,156,Extra Large Box,1,plasticbox,bubblewrap,1
+188,117,172,27,1,1,10,Giant Box,0,polyethylene,instapak,1
+113,132,97,91,1,0,26,Extra Large Box,0,corrugated,foambeans,1
+68,6,101,33,1,0,124,Large Box,1,paperbox,instapak,1
+193,185,32,265,0,0,7,Giant Box,1,cardboard,none,3
+163,92,183,574,0,0,165,Giant Box,1,plasticwrap,bubblewrap,3
+206,172,177,138,1,0,58,Giant Box,0,corrugated,foambeans,1
+170,215,17,154,0,1,142,Giant Box,0,plasticbox,instapak,2
+156,197,88,104,1,1,73,Giant Box,1,polyethylene,instapak,1
+210,137,5,132,1,0,146,Giant Box,1,corrugated,instapak,1
+203,204,125,417,0,0,91,Giant Box,1,plasticbox,foambeans,2
+157,150,191,363,1,0,138,Giant Box,1,cardboard,instapak,1
+201,10,134,607,1,1,123,Giant Box,1,plasticbox,instapak,1
+8,71,116,466,1,1,50,Large Box,1,plasticbox,airpillow,1
+196,111,182,222,0,0,162,Giant Box,1,cardboard,bubblewrap,2
+220,125,105,105,0,1,100,Giant Box,1,plasticbox,foambeans,2
+8,167,112,65,1,0,1,Giant Box,0,corrugated,foambeans,1
+93,199,38,638,1,0,145,Giant Box,0,plasticwrap,paperfill,1
+71,213,178,216,0,1,133,Giant Box,0,plasticbox,instapak,2
+67,65,109,225,0,0,118,Large Box,0,cardboard,bubblewrap,2
+134,165,171,313,0,0,76,Giant Box,1,cardboard,none,3
+189,150,160,347,1,1,111,Giant Box,1,plasticbox,foambeans,1
+117,29,53,267,1,1,7,Large Box,1,polyethylene,instapak,1
+154,207,11,617,0,1,159,Giant Box,1,plasticbox,paperfill,2
+142,69,119,351,1,1,19,Extra Large Box,0,polyethylene,instapak,1
+176,188,155,280,0,1,57,Giant Box,1,polyethylene,none,3
+104,196,60,387,0,0,121,Giant Box,1,cardboard,instapak,3
+178,186,143,28,0,1,121,Giant Box,1,plasticbox,instapak,2
+89,104,85,609,0,1,153,Large Box,1,plasticbox,paperfill,2
+134,194,120,695,1,0,79,Giant Box,0,plasticwrap,bubblewrap,1
+151,10,157,650,0,0,123,Extra Large Box,1,plasticwrap,paperfill,2
+115,109,195,671,0,1,160,Giant Box,1,plasticbox,paperfill,2
+97,212,14,285,0,1,153,Giant Box,0,plasticbox,paperfill,3
+201,209,82,686,0,1,68,Giant Box,1,plasticbox,none,3
+168,28,90,192,0,1,128,Giant Box,0,plasticbox,instapak,2
+213,184,76,96,0,1,87,Giant Box,1,polyethylene,none,3
+46,105,182,19,1,0,117,Giant Box,0,paperbox,bubblewrap,1
+59,195,62,456,1,1,58,Giant Box,1,plasticbox,airpillow,1
+36,129,129,120,1,1,45,Extra Large Box,0,polyethylene,instapak,1
+52,16,7,213,1,1,165,Medium Box,0,plasticbox,paperfill,1
+135,87,53,601,1,1,58,Extra Large Box,1,plasticbox,airpillow,1
+8,207,147,188,1,0,47,Giant Box,1,cardboard,airpillow,1
+8,64,7,90,1,1,50,Medium Box,0,polyethylene,instapak,1
+5,41,151,139,1,1,23,Extra Large Box,1,polyethylene,instapak,1
+116,22,184,471,1,1,154,Giant Box,0,plasticbox,paperfill,1
+206,179,195,360,0,1,140,Giant Box,1,plasticbox,instapak,3
+79,204,157,179,0,0,177,Giant Box,1,cardboard,bubblewrap,3
+156,197,28,532,0,0,142,Giant Box,0,plasticwrap,paperfill,3
+72,18,105,549,1,0,48,Large Box,1,plasticwrap,bubblewrap,1
+170,94,123,421,1,1,121,Giant Box,1,plasticbox,instapak,1
+39,50,187,8,1,1,27,Giant Box,1,polyethylene,instapak,1
+13,30,220,323,0,0,118,Giant Box,0,cardboard,bubblewrap,3
+61,212,129,180,0,0,154,Giant Box,0,cardboard,bubblewrap,2
+36,113,42,379,0,0,76,Large Box,1,cardboard,none,3
+168,169,102,185,0,0,162,Giant Box,1,cardboard,bubblewrap,2
+171,129,102,594,0,0,131,Giant Box,0,plasticwrap,paperfill,2
+152,14,154,216,0,0,160,Extra Large Box,1,cardboard,bubblewrap,3
+182,57,114,326,0,0,26,Giant Box,1,cardboard,none,3
+83,134,206,258,0,0,126,Giant Box,0,cardboard,instapak,2
+166,113,147,550,0,1,148,Giant Box,1,plasticbox,instapak,3
+161,73,82,116,0,1,64,Giant Box,1,polyethylene,none,2
+150,49,72,603,0,0,157,Extra Large Box,1,plasticwrap,bubblewrap,2
+30,70,65,205,0,1,40,Medium Box,1,polyethylene,none,2
+44,21,51,382,0,1,27,Medium Box,1,polyethylene,none,3
+220,51,79,296,1,0,172,Giant Box,0,cardboard,bubblewrap,1
+132,24,214,122,0,0,75,Giant Box,1,corrugated,none,3
+179,98,63,648,0,1,43,Giant Box,1,plasticbox,none,2
+69,52,29,458,1,1,52,Medium Box,1,plasticbox,airpillow,1
+85,71,119,471,1,1,5,Large Box,1,plasticbox,airpillow,1
+39,17,139,564,0,1,149,Extra Large Box,0,plasticbox,instapak,2
+185,79,195,537,1,1,33,Giant Box,0,plasticbox,airpillow,1
+137,173,201,132,0,1,17,Giant Box,1,polyethylene,none,2
+190,106,195,49,0,1,115,Giant Box,1,plasticbox,foambeans,2
+153,126,31,549,1,1,176,Extra Large Box,1,plasticbox,paperfill,1
+172,110,76,20,1,1,102,Giant Box,0,plasticbox,foambeans,1
+188,114,189,468,1,0,11,Giant Box,1,plasticbox,airpillow,1
+89,164,87,58,0,0,45,Giant Box,1,corrugated,none,3
+163,27,29,28,1,0,137,Giant Box,0,paperbox,instapak,1
+76,84,170,390,1,0,89,Giant Box,0,cardboard,airpillow,1
+159,108,75,70,0,0,11,Extra Large Box,1,corrugated,none,3
+90,137,79,583,0,1,68,Extra Large Box,1,plasticbox,none,3
+199,10,22,511,1,1,118,Giant Box,1,plasticbox,foambeans,1
+74,83,32,251,1,0,140,Large Box,1,cardboard,instapak,1
+76,33,151,317,1,1,82,Extra Large Box,0,polyethylene,instapak,1
+124,61,111,491,0,0,129,Extra Large Box,0,plasticbox,instapak,2
+195,115,35,45,1,1,173,Giant Box,0,plasticbox,paperfill,1
+169,75,98,380,0,1,110,Giant Box,0,plasticbox,foambeans,2
+146,87,146,365,1,1,42,Extra Large Box,0,polyethylene,instapak,1
+77,53,56,520,1,1,90,Large Box,1,plasticbox,airpillow,1
+175,86,84,388,0,1,86,Giant Box,1,polyethylene,none,2
+23,168,183,640,1,0,152,Giant Box,1,plasticwrap,bubblewrap,1
+80,195,135,57,0,1,127,Giant Box,0,plasticbox,instapak,2
+153,26,46,271,0,0,2,Extra Large Box,1,cardboard,none,3
+199,186,86,410,1,1,152,Giant Box,1,plasticbox,paperfill,1
+176,32,140,573,0,0,166,Giant Box,1,plasticwrap,bubblewrap,2
+21,117,177,605,1,1,72,Giant Box,1,plasticbox,airpillow,1
+71,29,81,56,0,1,12,Large Box,1,polyethylene,none,3
+21,84,43,374,1,1,21,Large Box,1,polyethylene,instapak,1
+73,25,123,628,0,1,29,Extra Large Box,1,plasticbox,none,2
+112,106,171,516,0,1,162,Giant Box,1,plasticbox,paperfill,2
+173,15,184,249,1,0,117,Giant Box,0,cardboard,bubblewrap,1
+103,17,183,353,0,0,152,Giant Box,0,cardboard,bubblewrap,3
+211,54,53,231,1,0,121,Giant Box,1,cardboard,instapak,1
+98,136,87,368,0,0,128,Extra Large Box,1,cardboard,instapak,2
+154,218,147,385,0,1,2,Giant Box,1,polyethylene,none,3
+161,92,114,30,1,0,149,Giant Box,0,paperbox,instapak,1
+123,125,129,692,0,0,115,Extra Large Box,1,plasticwrap,bubblewrap,3
+67,195,217,343,1,1,1,Giant Box,0,polyethylene,instapak,1
+163,71,141,17,1,0,171,Giant Box,1,paperbox,bubblewrap,1
+151,159,66,240,0,1,121,Extra Large Box,1,plasticbox,instapak,2
+133,93,18,524,0,0,45,Extra Large Box,1,plasticwrap,none,2
+9,169,42,258,0,0,148,Giant Box,0,cardboard,instapak,2
+6,210,144,634,0,0,3,Giant Box,1,plasticwrap,none,2
+102,34,25,509,0,0,35,Large Box,1,plasticwrap,none,2
+195,6,101,106,0,1,175,Giant Box,1,plasticbox,paperfill,3
+70,43,93,369,1,1,65,Large Box,1,polyethylene,instapak,1
+85,28,170,49,1,0,144,Giant Box,0,paperbox,instapak,1
+207,70,159,262,0,0,83,Giant Box,1,cardboard,none,2
+74,119,26,616,1,0,84,Large Box,1,plasticwrap,bubblewrap,1
+50,8,10,395,1,0,127,Medium Box,0,cardboard,instapak,1
+34,202,85,198,0,0,95,Giant Box,1,cardboard,bubblewrap,3
+19,72,84,264,1,0,20,Large Box,0,cardboard,airpillow,1
+18,39,183,610,0,1,46,Giant Box,1,plasticbox,none,3
+125,54,155,261,1,1,136,Extra Large Box,1,plasticbox,instapak,1
+151,81,98,677,0,1,15,Extra Large Box,1,plasticbox,none,2
+9,109,105,279,1,0,86,Large Box,1,cardboard,airpillow,1
+192,46,55,544,0,1,19,Giant Box,1,plasticbox,none,3
+41,122,53,691,0,1,148,Extra Large Box,1,plasticbox,instapak,2
+57,158,23,473,0,1,22,Extra Large Box,1,plasticbox,none,3
+46,207,122,431,0,1,68,Giant Box,1,plasticbox,none,2
+52,194,136,231,1,0,146,Giant Box,0,cardboard,instapak,1
+136,109,188,427,0,1,47,Giant Box,1,plasticbox,none,2
+133,136,192,322,0,0,142,Giant Box,1,cardboard,instapak,2
+191,194,164,303,0,1,127,Giant Box,1,plasticbox,instapak,2
+111,208,177,368,1,1,21,Giant Box,1,polyethylene,instapak,1
+37,28,197,598,0,1,81,Giant Box,1,plasticbox,none,2
+18,180,58,543,1,0,159,Giant Box,1,plasticwrap,bubblewrap,1
+10,174,136,377,1,1,83,Giant Box,0,polyethylene,instapak,1
+170,161,71,219,0,0,67,Giant Box,1,cardboard,none,3
+134,213,12,74,1,1,111,Giant Box,0,plasticbox,foambeans,1
+73,49,213,167,1,1,65,Giant Box,1,polyethylene,instapak,1
+120,219,180,524,1,1,22,Giant Box,1,plasticbox,airpillow,1
+211,40,171,335,0,0,32,Giant Box,1,cardboard,none,3
+104,170,88,636,0,1,112,Giant Box,1,plasticbox,foambeans,2
+171,151,38,78,1,1,172,Giant Box,0,plasticbox,paperfill,1
+125,106,95,193,1,0,119,Extra Large Box,1,cardboard,bubblewrap,1
+38,36,213,621,0,1,155,Giant Box,1,plasticbox,paperfill,2
+164,159,144,408,1,0,41,Giant Box,0,plasticbox,airpillow,1
+21,109,178,314,1,0,139,Giant Box,1,cardboard,instapak,1
+28,219,178,506,0,0,49,Giant Box,1,plasticwrap,none,2
+143,159,137,434,0,0,154,Extra Large Box,1,plasticbox,bubblewrap,2
+195,156,193,596,0,1,78,Giant Box,1,plasticbox,none,2
+158,208,63,366,0,0,3,Giant Box,1,cardboard,none,2
+146,129,17,349,0,0,135,Extra Large Box,0,cardboard,instapak,3
+140,49,103,391,1,0,70,Extra Large Box,1,cardboard,airpillow,1
+162,51,89,291,0,1,71,Giant Box,1,polyethylene,none,3
+142,163,41,613,1,1,179,Giant Box,1,plasticbox,paperfill,1
+170,45,37,625,0,1,126,Giant Box,0,plasticbox,instapak,3
+106,44,107,5,0,1,85,Large Box,1,polyethylene,none,3
+157,11,74,339,1,1,1,Extra Large Box,1,polyethylene,instapak,1
+5,196,54,430,0,0,54,Giant Box,1,plasticbox,none,3
+19,57,105,462,0,1,112,Large Box,1,plasticbox,foambeans,3
+70,58,127,302,0,1,120,Extra Large Box,0,plasticbox,foambeans,3
+107,169,41,444,1,0,77,Giant Box,1,plasticbox,airpillow,1
+13,152,142,212,0,0,61,Extra Large Box,1,cardboard,none,2
+143,39,161,393,1,1,27,Giant Box,1,polyethylene,instapak,1
+38,36,140,150,1,1,87,Extra Large Box,1,polyethylene,instapak,1
+57,118,21,492,1,0,129,Large Box,0,plasticbox,instapak,1
+191,117,151,299,0,0,179,Giant Box,0,cardboard,bubblewrap,2
+128,154,93,168,0,1,144,Extra Large Box,1,plasticbox,instapak,3
+156,27,96,266,1,1,124,Extra Large Box,0,plasticbox,instapak,1
+23,103,91,171,1,0,63,Large Box,0,cardboard,airpillow,1
+198,34,132,474,1,0,39,Giant Box,0,plasticbox,airpillow,1
+204,38,186,210,1,0,27,Giant Box,1,cardboard,airpillow,1
+11,106,51,362,0,0,164,Large Box,0,cardboard,bubblewrap,3
+119,130,142,50,1,0,162,Extra Large Box,0,corrugated,bubblewrap,1
+41,218,66,86,0,0,168,Giant Box,1,corrugated,bubblewrap,2
+188,209,161,277,1,1,18,Giant Box,0,polyethylene,instapak,1
+176,51,137,374,1,0,35,Giant Box,1,cardboard,airpillow,1
+15,64,37,332,0,0,2,Medium Box,1,cardboard,none,2
+102,114,135,489,1,0,75,Extra Large Box,0,plasticbox,airpillow,1
+196,76,18,652,1,1,77,Giant Box,1,plasticbox,airpillow,1
+67,204,65,9,1,0,121,Giant Box,1,paperbox,instapak,1
+101,203,190,337,1,1,67,Giant Box,1,polyethylene,instapak,1
+50,167,209,226,1,1,158,Giant Box,1,plasticbox,paperfill,1
+16,51,184,376,1,1,154,Giant Box,1,plasticbox,paperfill,1
+171,203,124,281,1,1,171,Giant Box,1,plasticbox,paperfill,1
+190,67,96,493,1,0,164,Giant Box,1,plasticbox,bubblewrap,1
+190,203,157,657,0,0,179,Giant Box,0,plasticwrap,bubblewrap,2
+199,35,151,414,1,0,75,Giant Box,1,plasticbox,airpillow,1
+65,61,29,457,1,1,110,Medium Box,1,plasticbox,foambeans,1
+176,110,102,673,0,1,70,Giant Box,1,plasticbox,none,2
+199,100,179,551,1,1,41,Giant Box,0,plasticbox,airpillow,1
+21,207,95,80,1,1,169,Giant Box,1,plasticbox,paperfill,1
+30,67,130,435,0,1,177,Extra Large Box,1,plasticbox,paperfill,2
+7,75,197,232,1,0,146,Giant Box,0,cardboard,instapak,1
+202,25,42,672,1,0,98,Giant Box,1,plasticwrap,bubblewrap,1
+150,147,15,122,1,1,176,Extra Large Box,1,plasticbox,paperfill,1
+167,184,122,289,1,0,174,Giant Box,0,cardboard,bubblewrap,1
+14,145,63,436,0,1,78,Extra Large Box,1,plasticbox,none,2
+22,160,101,12,0,0,99,Extra Large Box,1,paperbox,bubblewrap,2
+140,64,94,689,0,1,7,Extra Large Box,1,plasticbox,none,3
+148,105,138,59,0,0,25,Extra Large Box,1,corrugated,none,2
+195,77,67,249,0,0,35,Giant Box,1,cardboard,none,3
+78,163,33,305,0,1,133,Giant Box,0,plasticbox,instapak,3
+92,74,108,273,1,0,149,Large Box,1,cardboard,instapak,1
+16,142,100,183,0,0,81,Extra Large Box,1,cardboard,none,2
+91,29,121,422,1,0,108,Extra Large Box,1,plasticbox,foambeans,1
+197,219,13,449,0,1,111,Giant Box,1,plasticbox,foambeans,3
+53,78,174,671,1,1,170,Giant Box,0,plasticbox,paperfill,1
+220,70,153,52,1,1,170,Giant Box,0,plasticbox,paperfill,1
+218,50,216,247,1,0,88,Giant Box,0,cardboard,airpillow,1
+109,67,18,669,0,0,18,Large Box,1,plasticwrap,none,2
+186,22,212,480,0,1,52,Giant Box,1,plasticbox,none,2
+67,184,176,118,1,1,132,Giant Box,0,plasticbox,instapak,1
+209,149,19,399,0,0,172,Giant Box,1,cardboard,bubblewrap,3
+139,14,10,84,0,0,180,Extra Large Box,1,corrugated,bubblewrap,2
+204,203,31,454,1,0,67,Giant Box,0,plasticbox,airpillow,1
+168,191,50,518,1,0,177,Giant Box,1,plasticwrap,bubblewrap,1
+105,19,8,133,0,1,163,Large Box,1,plasticbox,paperfill,3
+104,50,33,376,1,0,152,Large Box,1,cardboard,bubblewrap,1
+192,78,216,368,0,0,20,Giant Box,1,cardboard,none,2
+215,195,164,304,1,1,133,Giant Box,0,plasticbox,instapak,1
+54,132,29,288,0,0,1,Extra Large Box,1,cardboard,none,2
+32,161,87,466,1,0,125,Giant Box,0,plasticbox,instapak,1
+211,19,17,700,1,0,113,Giant Box,0,plasticwrap,bubblewrap,1
+50,80,212,246,1,1,106,Giant Box,1,plasticbox,foambeans,1
+61,91,66,260,1,1,145,Large Box,1,plasticbox,instapak,1
+68,27,51,184,1,1,147,Medium Box,0,plasticbox,instapak,1
+205,189,19,643,0,1,45,Giant Box,1,plasticbox,none,3
+168,87,91,507,1,1,56,Giant Box,0,plasticbox,airpillow,1
+59,110,91,238,1,1,118,Large Box,0,plasticbox,foambeans,1
+213,77,121,317,1,1,145,Giant Box,0,plasticbox,instapak,1
+204,151,26,174,1,0,31,Giant Box,0,cardboard,airpillow,1
+160,150,89,542,0,0,130,Extra Large Box,1,plasticwrap,paperfill,2
+62,172,178,429,1,1,66,Giant Box,0,plasticbox,airpillow,1
+152,76,97,700,0,0,52,Extra Large Box,1,plasticwrap,none,2
+159,26,64,162,0,1,66,Extra Large Box,1,polyethylene,none,3
+219,84,93,246,1,1,3,Giant Box,0,polyethylene,instapak,1
+19,154,99,665,1,0,151,Extra Large Box,0,plasticwrap,bubblewrap,1
+167,134,108,618,0,0,98,Giant Box,1,plasticwrap,bubblewrap,3
+31,41,118,59,0,1,16,Large Box,1,polyethylene,none,3
+121,11,52,239,0,1,118,Extra Large Box,0,plasticbox,foambeans,3
+172,123,191,553,1,1,56,Giant Box,1,plasticbox,airpillow,1
+143,48,191,452,1,0,117,Giant Box,0,plasticbox,foambeans,1
+98,146,171,16,1,0,101,Giant Box,1,paperbox,bubblewrap,1
+91,113,62,374,0,1,134,Large Box,1,plasticbox,instapak,3
+15,102,196,310,1,0,116,Giant Box,1,cardboard,bubblewrap,1
+151,11,82,46,1,0,163,Extra Large Box,1,paperbox,bubblewrap,1
+141,123,211,689,0,0,134,Giant Box,0,plasticwrap,paperfill,2
+139,68,103,449,0,1,73,Extra Large Box,1,plasticbox,none,2
+129,150,182,12,0,0,59,Giant Box,1,paperbox,none,3
+71,34,81,629,0,1,66,Large Box,1,plasticbox,none,3
+166,176,105,81,0,1,64,Giant Box,1,polyethylene,none,2
+33,58,200,568,0,0,44,Giant Box,1,plasticwrap,none,2
+8,196,42,36,1,0,65,Giant Box,1,paperbox,bubblewrap,1
+78,17,142,42,0,0,80,Extra Large Box,1,paperbox,none,3
+42,160,153,182,0,0,90,Extra Large Box,1,cardboard,none,3
+20,158,142,392,1,1,9,Extra Large Box,1,polyethylene,instapak,1
+54,74,104,496,1,0,177,Large Box,1,plasticbox,bubblewrap,1
+95,186,104,50,1,1,121,Giant Box,1,plasticbox,instapak,1
+140,176,183,475,1,0,2,Giant Box,1,plasticbox,airpillow,1
+71,147,109,500,1,1,34,Extra Large Box,1,plasticbox,airpillow,1
+61,92,216,183,0,1,50,Giant Box,1,polyethylene,none,2
+29,193,142,213,1,0,178,Giant Box,1,cardboard,bubblewrap,1
+21,218,44,493,0,1,75,Giant Box,1,plasticbox,none,3
+157,144,96,472,1,1,160,Extra Large Box,0,plasticbox,paperfill,1
+185,70,127,664,1,1,170,Giant Box,0,plasticbox,paperfill,1
+216,104,199,515,0,1,101,Giant Box,0,plasticbox,foambeans,3
+188,21,132,46,0,0,43,Giant Box,1,paperbox,none,3
+158,175,6,661,1,1,21,Giant Box,1,plasticbox,airpillow,1
+131,172,100,233,0,0,96,Giant Box,0,cardboard,bubblewrap,2
+109,171,107,575,1,0,108,Giant Box,1,plasticwrap,bubblewrap,1
+97,140,23,19,0,0,24,Extra Large Box,1,paperbox,none,3
+101,184,43,107,1,0,139,Giant Box,0,corrugated,instapak,1
+214,215,193,280,1,1,107,Giant Box,0,plasticbox,foambeans,1
+13,99,57,572,0,1,89,Large Box,1,plasticbox,none,2
+168,109,31,401,1,0,68,Giant Box,0,plasticbox,airpillow,1
+72,34,17,329,1,0,148,Large Box,1,cardboard,instapak,1
+174,112,20,345,0,0,8,Giant Box,1,cardboard,none,2
+55,85,123,181,0,1,62,Extra Large Box,1,polyethylene,none,2
+65,18,35,313,0,0,160,Medium Box,1,cardboard,bubblewrap,3
+220,169,133,103,0,1,2,Giant Box,1,polyethylene,none,2
+120,13,218,352,1,0,82,Giant Box,1,cardboard,airpillow,1
+107,142,131,485,1,1,72,Extra Large Box,1,plasticbox,airpillow,1
+52,208,7,318,0,0,139,Giant Box,1,cardboard,instapak,2
+102,95,156,560,1,1,152,Extra Large Box,0,plasticbox,paperfill,1
+18,7,11,217,1,0,1,Small Box,0,cardboard,airpillow,1
+90,106,78,253,0,0,149,Large Box,0,cardboard,instapak,2
+39,200,102,12,1,0,116,Giant Box,0,paperbox,bubblewrap,1
+159,140,142,317,1,0,50,Extra Large Box,1,cardboard,airpillow,1
+137,5,115,130,1,1,176,Extra Large Box,0,plasticbox,paperfill,1
+95,163,13,341,0,1,121,Giant Box,1,plasticbox,instapak,2
+81,128,39,385,0,1,128,Extra Large Box,1,plasticbox,instapak,2
+66,123,69,171,1,1,126,Extra Large Box,1,plasticbox,instapak,1
+173,34,72,218,0,1,163,Giant Box,0,plasticbox,paperfill,3
+167,143,11,255,0,1,136,Giant Box,0,plasticbox,instapak,2
+74,24,45,72,0,1,74,Large Box,1,polyethylene,none,3
+190,39,55,385,1,0,98,Giant Box,1,cardboard,bubblewrap,1
+177,147,180,423,0,0,154,Giant Box,0,plasticbox,bubblewrap,3
+193,104,57,92,0,0,32,Giant Box,1,corrugated,none,2
+207,32,143,74,1,1,104,Giant Box,0,plasticbox,foambeans,1
+90,87,144,665,0,0,28,Extra Large Box,1,plasticwrap,none,2
+192,138,67,432,1,1,179,Giant Box,0,plasticbox,paperfill,1
+113,177,112,667,1,0,139,Giant Box,0,plasticwrap,paperfill,1
+115,79,147,458,0,0,122,Extra Large Box,1,plasticbox,instapak,3
+46,169,134,589,0,0,121,Giant Box,0,plasticwrap,paperfill,2
+206,65,62,477,0,0,20,Giant Box,1,plasticbox,none,2
+73,58,15,191,1,1,114,Large Box,0,plasticbox,foambeans,1
+168,70,96,513,1,1,110,Giant Box,1,plasticbox,foambeans,1
+141,188,167,71,1,0,149,Giant Box,1,corrugated,instapak,1
+158,81,127,380,0,0,81,Extra Large Box,1,cardboard,none,3
+64,75,32,510,0,0,156,Large Box,1,plasticwrap,bubblewrap,3
+202,150,89,339,0,1,105,Giant Box,1,plasticbox,foambeans,3
+54,120,22,245,1,1,43,Large Box,1,polyethylene,instapak,1
+75,215,213,97,1,0,62,Giant Box,1,corrugated,foambeans,1
+218,130,190,282,1,1,73,Giant Box,1,polyethylene,instapak,1
+104,141,65,333,0,1,141,Extra Large Box,0,plasticbox,instapak,3
+144,120,115,248,1,0,79,Extra Large Box,0,cardboard,airpillow,1
+127,135,101,333,1,0,41,Extra Large Box,1,cardboard,airpillow,1
+128,130,164,292,1,0,149,Giant Box,0,cardboard,instapak,1
+29,170,115,242,1,1,146,Giant Box,0,plasticbox,instapak,1
+70,185,7,188,1,0,106,Giant Box,0,cardboard,bubblewrap,1
+101,161,121,669,1,1,55,Giant Box,1,plasticbox,airpillow,1
+30,70,53,247,0,0,113,Medium Box,0,cardboard,bubblewrap,2
+141,85,178,255,1,0,38,Giant Box,1,cardboard,airpillow,1
+46,200,173,374,1,0,103,Giant Box,1,cardboard,bubblewrap,1
+201,143,148,224,1,1,135,Giant Box,0,plasticbox,instapak,1
+178,219,174,228,0,0,5,Giant Box,1,cardboard,none,2
+138,52,166,88,0,0,25,Giant Box,1,corrugated,none,3
+128,208,150,144,0,0,74,Giant Box,1,corrugated,none,2
+94,91,124,78,1,0,134,Extra Large Box,0,corrugated,instapak,1
+51,214,67,244,0,1,1,Giant Box,1,polyethylene,none,3
+76,170,192,550,1,1,75,Giant Box,1,plasticbox,airpillow,1
+106,203,155,36,0,0,136,Giant Box,0,paperbox,instapak,2
+137,128,203,164,1,0,30,Giant Box,0,cardboard,airpillow,1
+8,189,153,393,0,1,156,Giant Box,1,plasticbox,paperfill,2
+112,188,193,458,1,1,110,Giant Box,0,plasticbox,foambeans,1
+78,144,102,482,0,0,178,Extra Large Box,0,plasticbox,bubblewrap,3
+163,143,60,114,0,0,19,Giant Box,1,corrugated,none,2
+97,18,93,487,1,0,83,Large Box,1,plasticbox,airpillow,1
+76,194,40,314,0,1,40,Giant Box,1,polyethylene,none,2
+171,132,52,699,1,0,30,Giant Box,1,plasticwrap,bubblewrap,1
+36,75,143,398,1,1,87,Extra Large Box,0,polyethylene,instapak,1
+83,126,17,312,1,1,144,Extra Large Box,0,plasticbox,instapak,1
+85,31,220,436,1,0,56,Giant Box,0,plasticbox,airpillow,1
+27,140,73,434,1,1,73,Extra Large Box,1,plasticbox,airpillow,1
+23,142,131,604,1,0,69,Extra Large Box,0,plasticwrap,bubblewrap,1
+216,51,169,117,1,1,16,Giant Box,1,polyethylene,instapak,1
+125,64,201,148,0,1,141,Giant Box,1,plasticbox,instapak,2
+202,182,62,408,1,1,121,Giant Box,1,plasticbox,instapak,1
+196,131,142,482,0,0,62,Giant Box,1,plasticbox,none,2
+127,54,77,90,1,1,95,Extra Large Box,1,plasticbox,foambeans,1
+122,185,152,172,0,0,92,Giant Box,1,cardboard,bubblewrap,2
+67,84,146,182,0,0,158,Extra Large Box,0,cardboard,bubblewrap,2
+30,206,220,335,0,0,172,Giant Box,1,cardboard,bubblewrap,3
+17,17,188,516,0,0,43,Giant Box,1,plasticwrap,none,3
+219,145,154,581,1,0,61,Giant Box,1,plasticwrap,bubblewrap,1
+98,213,42,665,0,1,130,Giant Box,1,plasticbox,instapak,2
+159,203,145,506,1,1,32,Giant Box,1,plasticbox,airpillow,1
+19,9,105,535,1,1,155,Large Box,1,plasticbox,paperfill,1
+13,64,204,451,0,1,63,Giant Box,1,plasticbox,none,3
+162,176,44,635,0,1,43,Giant Box,1,plasticbox,none,3
+119,73,113,402,1,1,104,Large Box,1,plasticbox,foambeans,1
+79,197,13,379,0,1,32,Giant Box,1,polyethylene,none,2
+216,85,196,92,1,0,131,Giant Box,0,corrugated,instapak,1
+116,6,123,321,1,1,91,Extra Large Box,1,plasticbox,foambeans,1
+12,40,81,577,1,0,32,Large Box,1,plasticwrap,bubblewrap,1
+168,123,81,329,1,1,39,Giant Box,1,polyethylene,instapak,1
+111,101,23,120,1,0,105,Large Box,0,corrugated,bubblewrap,1
+7,50,116,68,1,1,17,Large Box,0,polyethylene,instapak,1
+137,181,111,147,1,1,124,Giant Box,1,plasticbox,instapak,1
+114,168,111,164,1,1,1,Giant Box,0,polyethylene,instapak,1
+88,193,49,56,0,0,129,Giant Box,1,corrugated,instapak,2
+16,165,178,51,1,0,6,Giant Box,0,corrugated,foambeans,1
+134,106,154,17,1,1,6,Extra Large Box,0,polyethylene,instapak,1
+130,125,6,331,1,0,130,Extra Large Box,1,cardboard,instapak,1
+83,191,31,595,0,1,97,Giant Box,1,plasticbox,foambeans,3
+33,6,53,484,1,0,155,Medium Box,0,plasticbox,bubblewrap,1
+33,16,57,248,0,1,100,Medium Box,0,plasticbox,foambeans,3
+73,51,98,649,1,1,174,Large Box,0,plasticbox,paperfill,1
+60,119,75,322,0,1,67,Large Box,1,polyethylene,none,3
+153,204,207,660,0,0,109,Giant Box,1,plasticwrap,bubblewrap,3
+86,19,80,430,1,0,50,Large Box,0,plasticbox,airpillow,1
+30,121,103,321,1,1,110,Extra Large Box,1,plasticbox,foambeans,1
+200,16,78,505,0,1,93,Giant Box,0,plasticbox,foambeans,2
+208,43,192,313,1,0,146,Giant Box,1,cardboard,instapak,1
+159,216,191,329,1,0,20,Giant Box,1,cardboard,airpillow,1
+44,183,19,134,0,0,150,Giant Box,1,corrugated,instapak,3
+219,216,198,546,1,1,66,Giant Box,0,plasticbox,airpillow,1
+147,148,116,179,0,0,73,Extra Large Box,1,cardboard,none,3
+135,203,46,243,0,1,149,Giant Box,1,plasticbox,instapak,2
+140,10,162,254,1,0,110,Giant Box,1,cardboard,bubblewrap,1
+140,165,89,90,0,1,117,Giant Box,0,plasticbox,foambeans,3
+210,129,43,329,1,1,49,Giant Box,0,polyethylene,instapak,1
+208,38,44,335,0,1,10,Giant Box,1,polyethylene,none,2
+56,5,95,533,1,1,47,Large Box,1,plasticbox,airpillow,1
+16,200,130,25,0,1,8,Giant Box,1,polyethylene,none,3
+153,181,42,340,1,1,52,Giant Box,0,polyethylene,instapak,1
+17,190,216,110,1,0,109,Giant Box,0,corrugated,bubblewrap,1
+45,55,115,291,0,1,109,Large Box,1,plasticbox,foambeans,2
+38,49,55,291,1,0,103,Medium Box,1,cardboard,bubblewrap,1
+135,108,85,114,1,0,56,Extra Large Box,0,corrugated,foambeans,1
+177,205,110,231,1,1,32,Giant Box,1,polyethylene,instapak,1
+61,135,215,692,1,1,34,Giant Box,0,plasticbox,airpillow,1
+120,170,88,104,0,1,5,Giant Box,1,polyethylene,none,3
+14,147,33,373,0,1,103,Extra Large Box,0,plasticbox,foambeans,2
+63,87,116,132,1,1,78,Large Box,1,polyethylene,instapak,1
+176,160,24,211,1,0,47,Giant Box,0,cardboard,airpillow,1
+27,183,217,414,1,1,99,Giant Box,0,plasticbox,foambeans,1
+19,101,45,675,0,0,178,Large Box,0,plasticwrap,bubblewrap,3
+176,82,112,366,1,1,30,Giant Box,1,polyethylene,instapak,1
+45,98,139,574,0,0,63,Extra Large Box,1,plasticwrap,none,3
+186,58,74,59,1,0,96,Giant Box,1,corrugated,bubblewrap,1
+81,105,140,34,1,1,106,Extra Large Box,0,plasticbox,foambeans,1
+106,71,26,168,0,1,51,Large Box,1,polyethylene,none,2
+39,6,16,137,0,0,110,Small Box,0,corrugated,bubblewrap,3
+45,194,179,82,0,1,117,Giant Box,1,plasticbox,foambeans,3
+45,70,45,466,0,0,79,Medium Box,1,plasticbox,none,3
+111,28,92,524,0,0,7,Large Box,1,plasticwrap,none,2
+187,195,164,83,0,1,58,Giant Box,1,polyethylene,none,3
+183,165,42,533,0,0,104,Giant Box,1,plasticwrap,bubblewrap,3
+149,163,116,568,0,1,103,Giant Box,1,plasticbox,foambeans,3
+6,40,182,596,0,1,5,Giant Box,1,plasticbox,none,2
+153,190,43,188,1,1,138,Giant Box,0,plasticbox,instapak,1
+89,90,117,217,0,1,150,Large Box,1,plasticbox,instapak,3
+219,148,156,407,1,0,124,Giant Box,0,plasticbox,instapak,1
+51,191,158,604,0,1,124,Giant Box,0,plasticbox,instapak,2
+125,111,180,143,0,1,7,Giant Box,1,polyethylene,none,2
+208,41,165,639,1,1,46,Giant Box,0,plasticbox,airpillow,1
+37,95,168,563,1,0,53,Giant Box,1,plasticwrap,bubblewrap,1
+129,34,52,215,1,1,13,Extra Large Box,0,polyethylene,instapak,1
+21,124,47,543,0,0,68,Extra Large Box,1,plasticwrap,none,3
+23,86,108,673,1,1,70,Large Box,1,plasticbox,airpillow,1
+131,21,120,630,0,0,122,Extra Large Box,1,plasticwrap,paperfill,2
+70,83,49,675,1,1,73,Large Box,0,plasticbox,airpillow,1
+198,126,116,393,1,0,155,Giant Box,1,cardboard,bubblewrap,1
+58,66,25,306,0,1,174,Medium Box,0,plasticbox,paperfill,3
+162,15,168,167,0,0,180,Giant Box,0,cardboard,bubblewrap,3
+28,193,126,97,1,0,166,Giant Box,0,corrugated,bubblewrap,1
+72,134,191,375,0,0,157,Giant Box,0,cardboard,bubblewrap,3
+167,182,57,47,0,1,177,Giant Box,0,plasticbox,paperfill,2
+46,106,49,501,0,1,143,Large Box,0,plasticbox,instapak,2
+21,177,59,202,1,1,17,Giant Box,0,polyethylene,instapak,1
+115,117,56,352,0,1,115,Large Box,1,plasticbox,foambeans,2
+187,6,62,399,1,1,173,Giant Box,0,plasticbox,paperfill,1
+58,41,127,578,1,0,180,Extra Large Box,0,plasticwrap,bubblewrap,1
+136,97,214,135,1,0,124,Giant Box,1,corrugated,instapak,1
+45,175,24,423,1,1,46,Giant Box,0,plasticbox,airpillow,1
+136,25,87,585,1,0,68,Extra Large Box,0,plasticwrap,bubblewrap,1
+139,24,145,697,0,0,17,Extra Large Box,1,plasticwrap,none,3
+115,149,33,590,1,1,142,Extra Large Box,0,plasticbox,instapak,1
+172,179,33,574,1,1,85,Giant Box,1,plasticbox,airpillow,1
+53,182,173,7,0,0,12,Giant Box,1,paperbox,none,2
+61,140,116,171,1,1,177,Extra Large Box,1,plasticbox,paperfill,1
+113,128,74,156,0,1,141,Extra Large Box,1,plasticbox,instapak,3
+105,12,169,348,1,0,169,Giant Box,1,cardboard,bubblewrap,1
+128,194,169,626,1,1,139,Giant Box,0,plasticbox,instapak,1
+7,28,49,192,0,1,6,Medium Box,1,polyethylene,none,3
+192,153,14,652,1,0,65,Giant Box,1,plasticwrap,bubblewrap,1
+40,78,152,251,1,0,140,Extra Large Box,1,cardboard,instapak,1
+94,159,219,51,1,0,39,Giant Box,1,corrugated,foambeans,1
+102,191,94,649,0,0,139,Giant Box,0,plasticwrap,paperfill,2
+141,190,60,136,0,0,101,Giant Box,0,corrugated,bubblewrap,2
+176,67,166,431,0,0,63,Giant Box,1,plasticbox,none,3
+205,87,192,579,0,1,166,Giant Box,1,plasticbox,paperfill,3
+88,21,88,64,1,0,13,Large Box,0,corrugated,foambeans,1
+146,61,87,442,1,0,69,Extra Large Box,1,plasticbox,airpillow,1
+62,133,117,192,1,1,45,Extra Large Box,0,polyethylene,instapak,1
+81,6,185,335,0,0,67,Giant Box,1,cardboard,none,2
+38,171,120,31,1,1,152,Giant Box,0,plasticbox,paperfill,1
+5,34,77,189,1,0,89,Large Box,1,cardboard,airpillow,1
+28,45,119,432,0,1,172,Large Box,0,plasticbox,paperfill,3
+210,195,149,299,1,1,172,Giant Box,0,plasticbox,paperfill,1
+156,53,163,286,0,0,166,Giant Box,1,cardboard,bubblewrap,3
+51,10,191,565,1,0,27,Giant Box,1,plasticwrap,bubblewrap,1
+65,177,112,512,0,0,13,Giant Box,1,plasticwrap,none,3
+213,200,34,559,0,0,21,Giant Box,1,plasticwrap,none,2
+32,217,71,241,1,0,4,Giant Box,0,cardboard,airpillow,1
+200,191,210,196,1,0,159,Giant Box,0,cardboard,bubblewrap,1
+96,69,204,582,1,1,55,Giant Box,0,plasticbox,airpillow,1
+139,11,206,442,0,1,62,Giant Box,1,plasticbox,none,2
+81,14,71,619,1,1,76,Large Box,1,plasticbox,airpillow,1
+16,187,109,153,0,0,57,Giant Box,1,cardboard,none,3
+217,40,68,585,1,1,3,Giant Box,0,plasticbox,airpillow,1
+21,89,214,7,1,0,45,Giant Box,0,paperbox,bubblewrap,1
+97,177,194,95,0,1,58,Giant Box,1,polyethylene,none,2
+144,75,200,340,1,0,21,Giant Box,1,cardboard,airpillow,1
+157,215,135,450,0,1,133,Giant Box,0,plasticbox,instapak,2
+139,191,164,317,0,1,64,Giant Box,1,polyethylene,none,3
+202,147,56,464,1,1,50,Giant Box,1,plasticbox,airpillow,1
+74,165,62,429,0,1,98,Giant Box,0,plasticbox,foambeans,3
+208,20,156,496,0,0,100,Giant Box,1,plasticbox,foambeans,3
+143,47,98,275,1,0,153,Extra Large Box,0,cardboard,bubblewrap,1
+53,50,147,415,0,1,95,Extra Large Box,1,plasticbox,foambeans,2
+215,185,125,45,0,1,125,Giant Box,1,plasticbox,instapak,3
+31,65,54,674,1,0,94,Medium Box,1,plasticwrap,bubblewrap,1
+23,51,152,90,1,1,24,Extra Large Box,1,polyethylene,instapak,1
+137,180,154,698,0,0,138,Giant Box,1,plasticwrap,paperfill,2
+173,27,75,301,1,1,74,Giant Box,0,polyethylene,instapak,1
+148,102,5,281,1,0,114,Extra Large Box,1,cardboard,bubblewrap,1
+193,24,204,554,1,1,115,Giant Box,0,plasticbox,foambeans,1
+77,202,76,476,0,1,77,Giant Box,1,plasticbox,none,3
+164,15,125,345,1,0,116,Giant Box,1,cardboard,bubblewrap,1
+78,26,132,267,1,1,91,Extra Large Box,0,plasticbox,foambeans,1
+35,193,214,553,0,1,110,Giant Box,0,plasticbox,foambeans,3
+65,124,54,595,1,1,2,Extra Large Box,1,plasticbox,airpillow,1
+204,215,53,312,1,1,139,Giant Box,1,plasticbox,instapak,1
+29,9,57,540,1,1,99,Medium Box,0,plasticbox,foambeans,1
+37,165,99,690,1,0,95,Giant Box,1,plasticwrap,bubblewrap,1
+182,54,49,326,1,1,98,Giant Box,1,plasticbox,foambeans,1
+21,135,156,29,1,0,134,Extra Large Box,1,paperbox,instapak,1
+144,70,46,694,1,1,54,Extra Large Box,0,plasticbox,airpillow,1
+183,216,57,124,1,1,147,Giant Box,1,plasticbox,instapak,1
+59,174,79,364,0,1,168,Giant Box,0,plasticbox,paperfill,2
+41,104,208,420,1,1,149,Giant Box,0,plasticbox,instapak,1
+7,32,138,634,0,1,139,Extra Large Box,0,plasticbox,instapak,2
+192,17,133,597,1,1,139,Giant Box,1,plasticbox,instapak,1
+155,184,64,608,1,1,158,Giant Box,1,plasticbox,paperfill,1
+131,219,146,165,1,0,146,Giant Box,0,cardboard,instapak,1
+52,59,208,92,1,1,159,Giant Box,0,plasticbox,paperfill,1
+118,142,43,234,0,0,17,Extra Large Box,1,cardboard,none,2
+132,19,95,192,0,1,113,Extra Large Box,1,plasticbox,foambeans,2
+212,42,142,159,1,1,130,Giant Box,0,plasticbox,instapak,1
+161,49,89,217,1,0,106,Giant Box,1,cardboard,bubblewrap,1
+101,48,81,597,1,0,168,Large Box,0,plasticwrap,bubblewrap,1
+138,46,159,365,1,0,96,Extra Large Box,1,cardboard,bubblewrap,1
+78,210,125,184,0,1,4,Giant Box,1,polyethylene,none,3
+200,213,85,248,0,1,39,Giant Box,1,polyethylene,none,3
+95,114,192,74,1,0,59,Giant Box,1,corrugated,foambeans,1
+181,83,141,556,0,0,49,Giant Box,1,plasticwrap,none,2
+215,173,35,658,0,1,62,Giant Box,1,plasticbox,none,2
+100,126,157,148,0,1,133,Extra Large Box,0,plasticbox,instapak,2
+134,61,148,458,0,1,51,Extra Large Box,1,plasticbox,none,3
+162,52,153,634,1,0,35,Giant Box,0,plasticwrap,bubblewrap,1
+170,198,189,219,0,1,50,Giant Box,1,polyethylene,none,2
+73,100,47,230,1,1,43,Large Box,1,polyethylene,instapak,1
+70,109,118,352,0,0,99,Large Box,1,cardboard,bubblewrap,3
+60,112,25,157,1,1,133,Large Box,1,plasticbox,instapak,1
+210,121,103,142,0,0,99,Giant Box,1,corrugated,bubblewrap,2
+182,204,213,241,1,1,52,Giant Box,1,polyethylene,instapak,1
+103,77,145,678,0,0,30,Extra Large Box,1,plasticwrap,none,2
+43,28,176,490,0,0,50,Giant Box,1,plasticbox,none,3
+205,114,28,363,1,1,178,Giant Box,1,plasticbox,paperfill,1
+207,55,210,504,0,1,22,Giant Box,1,plasticbox,none,3
+73,165,86,533,1,0,40,Giant Box,0,plasticwrap,bubblewrap,1
+134,9,84,192,1,1,16,Extra Large Box,0,polyethylene,instapak,1
+117,145,127,694,1,1,99,Extra Large Box,1,plasticbox,foambeans,1
+114,30,214,579,0,0,43,Giant Box,1,plasticwrap,none,3
+119,120,42,54,1,1,74,Large Box,1,polyethylene,instapak,1
+5,114,172,671,0,0,51,Giant Box,1,plasticwrap,none,2
+190,171,14,394,1,0,58,Giant Box,0,cardboard,airpillow,1
+213,206,122,24,1,1,39,Giant Box,0,polyethylene,instapak,1
+93,182,55,681,1,1,126,Giant Box,1,plasticbox,instapak,1
+213,55,62,135,0,0,141,Giant Box,0,corrugated,instapak,3
+172,47,150,443,1,1,107,Giant Box,0,plasticbox,foambeans,1
+185,192,59,416,0,1,101,Giant Box,0,plasticbox,foambeans,3
+147,204,170,564,0,1,90,Giant Box,1,plasticbox,none,3
+189,193,43,97,0,0,167,Giant Box,0,corrugated,bubblewrap,3
+34,10,181,252,0,1,98,Giant Box,0,plasticbox,foambeans,2
+149,63,72,634,1,0,72,Extra Large Box,1,plasticwrap,bubblewrap,1
+5,130,97,29,1,1,165,Extra Large Box,1,plasticbox,paperfill,1
+79,84,22,681,1,0,15,Large Box,0,plasticwrap,bubblewrap,1
+113,31,33,502,1,1,83,Large Box,0,plasticbox,airpillow,1
+172,146,110,28,0,1,89,Giant Box,1,polyethylene,none,2
+162,49,178,183,1,1,78,Giant Box,1,polyethylene,instapak,1
+49,20,38,223,0,0,110,Medium Box,1,cardboard,bubblewrap,3
+72,162,201,681,0,0,99,Giant Box,1,plasticwrap,bubblewrap,3
+196,73,146,518,0,0,31,Giant Box,1,plasticwrap,none,3
+147,208,47,295,0,0,51,Giant Box,1,cardboard,none,2
+37,139,188,109,0,0,76,Giant Box,1,corrugated,none,3
+119,83,31,517,0,0,172,Large Box,0,plasticwrap,bubblewrap,3
+116,212,196,643,1,0,127,Giant Box,1,plasticwrap,paperfill,1
+67,29,21,391,0,0,101,Medium Box,0,cardboard,bubblewrap,2
+220,191,145,157,1,1,118,Giant Box,1,plasticbox,foambeans,1
+174,153,80,413,0,1,6,Giant Box,1,plasticbox,none,2
+133,8,108,12,0,1,1,Extra Large Box,1,polyethylene,none,3

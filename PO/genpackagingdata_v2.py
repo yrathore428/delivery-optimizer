@@ -18,7 +18,7 @@ THRESHOLDS = {
     }
 
 # Column headers
-headers = ["length", "width", "height", "weight", "fragility", "atseal", "stime", "boxsize", "stackability", "pmaterial","" "extra_protection", "rotation"]
+headers = ["length", "width", "height", "weight", "fragility", "atseal", "stime", "boxsize", "stackability", "pmaterial", "extra_protection", "rotation"]
 
 
 # options for packaging material are as follows
@@ -34,10 +34,17 @@ headers = ["length", "width", "height", "weight", "fragility", "atseal", "stime"
 # custom made materials like thermoform trays, vacuum sealed bags, die-cut foam inserts
 
 
+# options for extra protection material are as follows
+# bubble wrap
+# foambeans
+# paper fill
+# instapak
+# air pillow
+# decision criteria: stime bw 91 and 180 days, and fragility is there, rest of decision is stackability, 
 
 
 # Open CSV file for writing
-with open("packaging_data.csv", mode="w", newline="") as file:
+with open("packaging_data_v2.csv", mode="w", newline="") as file:
     writer = csv.writer(file)
     
     # Write column headers
@@ -46,6 +53,40 @@ with open("packaging_data.csv", mode="w", newline="") as file:
     # Generate 1000 rows
     for i in range(1000):
         
+        def decide_protection():
+            if(stime > 90 and stime < 121):
+                if(pmaterial != "plasticbox"):
+                    return "bubblewrap"
+                else:
+                    return "foambeans"
+
+            elif(stime > 120 and stime < 151):
+                if(pmaterial == "plasticwrap"):
+                    return "paperfill"
+                else:
+                    return "instapak"
+            if(stime > 150 and stime < 181):
+                if((pmaterial == "corrugated" or pmaterial == "cardboard") and atseal == 1):
+                    return "airpillow"
+                elif(atseal == 1):
+                    return "paperfill"
+                elif(atseal == 0):
+                    return "bubblewrap"
+            
+            elif(stime < 91):
+                if(pmaterial == "plasticwrap" or pmaterial == "paperbox"):
+                    return "bubblewrap"
+                elif(pmaterial == "corrugated"):
+                    return "foambeans"
+                elif(pmaterial == "cardboard" or pmaterial == "plasticbox"):
+                    return "airpillow"
+                else:
+                    return "instapak"
+
+
+
+            
+            
         # Generate values for each column
         length, width, height = [random.randint(MIN_DIMENSIONS, MAX_DIMENSIONS) for i in range(3)]
         weight = random.randint(MIN_WEIGHT, MAX_WEIGHT)
@@ -86,16 +127,16 @@ with open("packaging_data.csv", mode="w", newline="") as file:
         fragility = random.randint(0, 1)
     
         if(fragility == 1):
-            extra_protection = 1
+            extra_protection = decide_protection()
             rotation = 1
         else:
-            extra_protection = 0
+            extra_protection = "none"
             rotation = random.randint(2,3)
 
         if(stime > 90):
-            extra_protection = 1
+            extra_protection = decide_protection()
         
-        if(extra_protection == 0):
+        if(extra_protection == "none"):
             stackability = 1
         else:
             stackability = random.randint(0,1)
@@ -111,6 +152,8 @@ with open("packaging_data.csv", mode="w", newline="") as file:
                 boxsize = "Giant Box"
 
         
+
+            
         
         # Write row to CSV file
         writer.writerow([length, width, height, weight, fragility, atseal, stime, boxsize, stackability, pmaterial, extra_protection, rotation])

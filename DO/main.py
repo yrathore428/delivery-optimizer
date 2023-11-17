@@ -20,7 +20,8 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 from sklearn.decomposition import KernelPCA
-from xgboost import XGBRegressor
+import xgboost as xgb
+from sklearn.metrics import mean_squared_error
 
 import pydot
 
@@ -102,9 +103,20 @@ pipeline = make_pipeline(StandardScaler(), Ridge(alpha=0.9))
 lasso = Lasso(alpha = 0.09)
 poly_reg = PolynomialFeatures(degree=3)
 X_poly = poly_reg.fit_transform(X_train)
-xgb = XGBRegressor(booster= 'gbtree', learning_rate = 0.5, max_depth = 5, n_estimators = 20)
-xgb.fit(X_train, y2_train)
-y2222_pred = xgb.predict(X_test)
+
+#creating regression matrices for xgboost
+dtrain_reg = xgb.DMatrix(X_train, y2_train)
+dtest_reg = xgb.DMatrix(X_test, y2_test)
+
+
+params = {"objective": "reg:squarederror", "tree_method": "gpu_hist"}
+n = 10000
+evals = [(dtrain_reg, "train"), (dtest_reg, "validation")]
+model = xgb.train(params = params, dtrain=dtrain_reg, num_boost_round=n, evals = evals,
+                  verbose_eval=50, early_stopping_rounds = 50)
+y2222_pred = model.predict(dtest_reg)
+rmse = mean_squared_error(y2_test, y2222_pred, squared=False)
+print(f"RMSE of the base model: {rmse: 3f}")
 regressor = LinearRegression()
 regressor2 = RandomForestRegressor(max_depth= 15 ,n_estimators= 7, min_samples_split=11, max_leaf_nodes=14)
 regressor.fit(X_poly, y2_train)
@@ -122,8 +134,8 @@ y222_pred = regressor.predict(poly_reg.transform(X_test))
 
 print('result of random forest regressor on test set', regressor2.score(X_test, y2_test))
 print('result of random forest regressor on training set', regressor2.score(X_train, y2_train))
-print('result of xgb regression on test set', xgb.score(X_test, y2_test))
-print('result of xgb regression on training set', xgb.score(X_train, y2_train))
+# print('result of xgb regression on test set', xgb.score(X_test, y2_test))
+# print('result of xgb regression on training set', xgb.score(X_train, y2_train))
 # print('result of polynomial regression on test set', regressor.score(X_test, y2_test))
 # print('result of polynomial regression on training set', regressor.score(X_train, y2_train))
 print("\nscore of polyreg", r2_score(y2_test, y222_pred))
@@ -144,72 +156,72 @@ print('\nAccuracy:', round(accuracy, 2), '%.')
 
 
 
-####trying CNNs to predict number of delivery days (categorical)
+# ####trying CNNs to predict number of delivery days (categorical)
 
-# num_classes = 27
-# y_one_hot = tf.keras.utils.to_categorical(y2_train, num_classes=num_classes)
-# print(tf.__version__)
+# # num_classes = 27
+# # y_one_hot = tf.keras.utils.to_categorical(y2_train, num_classes=num_classes)
+# # print(tf.__version__)
 
-# ann = tf.keras.models.Sequential()
+# # ann = tf.keras.models.Sequential()
 
-# # input layer
-# ann.add(tf.keras.layers.Dense(units = 64, activation='relu', input_dim = 9))
+# # # input layer
+# # ann.add(tf.keras.layers.Dense(units = 64, activation='relu', input_dim = 9))
 
-# # hidden layer
-# ann.add(tf.keras.layers.Dense(units = 64, activation='relu'))
+# # # hidden layer
+# # ann.add(tf.keras.layers.Dense(units = 64, activation='relu'))
 
-# # second hidden layer
-# ann.add(tf.keras.layers.Dense(units=32, activation = 'relu'))
+# # # second hidden layer
+# # ann.add(tf.keras.layers.Dense(units=32, activation = 'relu'))
 
-# # output layer
-# ann.add(tf.keras.layers.Dense(num_classes, activation='softmax'))
+# # # output layer
+# # ann.add(tf.keras.layers.Dense(num_classes, activation='softmax'))
 
-# # compiling the ann
-# ann.compile(optimizer='adam', loss = 'categorical_crossentropy', metrics = ['accuracy'])
+# # # compiling the ann
+# # ann.compile(optimizer='adam', loss = 'categorical_crossentropy', metrics = ['accuracy'])
 
-# ann.fit(X_train, y_one_hot, batch_size=64, epochs = 500, verbose=False)
+# # ann.fit(X_train, y_one_hot, batch_size=64, epochs = 500, verbose=False)
 
-# y22_pred = ann.predict(X_test).round()
+# # y22_pred = ann.predict(X_test).round()
 
-# score = ann.evaluate(X_train, y_one_hot, batch_size=32)
-# print('Test loss:', score[0])
-# print('Test accuracy:', score[1])
-# np.set_printoptions(threshold=np.inf)
-# print('\nprediction matrix, position of ones represent the nth day')
-# print(y22_pred)
-# print(y2_test)
+# # score = ann.evaluate(X_train, y_one_hot, batch_size=32)
+# # print('Test loss:', score[0])
+# # print('Test accuracy:', score[1])
+# # np.set_printoptions(threshold=np.inf)
+# # print('\nprediction matrix, position of ones represent the nth day')
+# # print(y22_pred)
+# # print(y2_test)
 
-# # issues with neural network, need to check it, max accuracy achieved is 90 percent on
-# # regression model but overall accuracy is bad since regression is not the optimal option
+# # # issues with neural network, need to check it, max accuracy achieved is 90 percent on
+# # # regression model but overall accuracy is bad since regression is not the optimal option
 
 
-X_train, X_test, y3_train, y3_test = train_test_split(X, y3, test_size=0.2)
+# X_train, X_test, y3_train, y3_test = train_test_split(X, y3, test_size=0.2)
 
-sc = StandardScaler()
-columns_to_scale = X_train[:, [7, 8, 9, 11, 12, 13]]
-scaled_columns = sc.fit_transform(columns_to_scale)
-X_train[:, [7, 8, 9, 11, 12, 13]] = scaled_columns
+# sc = StandardScaler()
+# columns_to_scale = X_train[:, [7, 8, 9, 11, 12, 13]]
+# scaled_columns = sc.fit_transform(columns_to_scale)
+# X_train[:, [7, 8, 9, 11, 12, 13]] = scaled_columns
 
-columns_to_scale = X_test[:, [7, 8, 9, 11, 12, 13]]
-scaled_columns = sc.transform(columns_to_scale)
-X_test[:, [7, 8, 9, 11, 12, 13]] = scaled_columns
+# columns_to_scale = X_test[:, [7, 8, 9, 11, 12, 13]]
+# scaled_columns = sc.transform(columns_to_scale)
+# X_test[:, [7, 8, 9, 11, 12, 13]] = scaled_columns
 
-regressor3 = RandomForestRegressor(max_depth= 5 ,n_estimators= 7, min_samples_split=11, max_leaf_nodes=14)
-regressor3.fit(X_train, y3_train)
-y3_pred = regressor3.predict(X_test)
+# regressor3 = RandomForestRegressor(max_depth= 5 ,n_estimators= 7, min_samples_split=11, max_leaf_nodes=14)
+# regressor3.fit(X_train, y3_train)
+# y3_pred = regressor3.predict(X_test)
 
-print('cost prediction result of random forest regressor on test set', regressor3.score(X_test, y3_test))
-print('cost prediction result of random forest regressor on training set', regressor3.score(X_train, y3_train))
-print('\npredictions (of regression model) and true value side by side, predictions first')
-print(np.c_[(y3_pred), y3_test])
+# print('cost prediction result of random forest regressor on test set', regressor3.score(X_test, y3_test))
+# print('cost prediction result of random forest regressor on training set', regressor3.score(X_train, y3_train))
+# print('\npredictions (of regression model) and true value side by side, predictions first')
+# print(np.c_[(y3_pred), y3_test])
 
-# Calculate the absolute errors
-errors = abs(y3_pred - y3_test)
-print('\ndifferences', errors)
-# Print out the mean absolute error (mae)
-print('\nMean Absolute Error:', round(np.mean(errors), 2), 'degrees.')
-# Calculate mean absolute percentage error (MAPE)
-mape = 100 * (errors / y3_test)
-# Calculate and display accuracy
-accuracy = 100 - np.mean(mape)
-print('\nAccuracy:', round(accuracy, 2), '%.')
+# # Calculate the absolute errors
+# errors = abs(y3_pred - y3_test)
+# print('\ndifferences', errors)
+# # Print out the mean absolute error (mae)
+# print('\nMean Absolute Error:', round(np.mean(errors), 2), 'degrees.')
+# # Calculate mean absolute percentage error (MAPE)
+# mape = 100 * (errors / y3_test)
+# # Calculate and display accuracy
+# accuracy = 100 - np.mean(mape)
+# print('\nAccuracy:', round(accuracy, 2), '%.')
