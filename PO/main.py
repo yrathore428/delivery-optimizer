@@ -62,7 +62,7 @@ import pickle
 ####
 ####
 
-ds = pd.read_csv('packaging_data.csv')
+ds = pd.read_csv('packaging_data_v2.csv')
 X = ds.iloc[:, 0:7]
 y1 = ds.iloc[:, -2]
 y2 = ds.iloc[:, -3]
@@ -74,11 +74,15 @@ print(y1.value_counts())
 print(y3.value_counts())
 print(y4.value_counts())
 
+print('\n****************predicting extra protective packaging**************** \n')
+le1 = LabelEncoder()
+y1 = le1.fit_transform(y1)
+
 # standard scaler will be applied to all colums except the column with binary values
 scaler = StandardScaler()
-columns_to_scale = X.iloc[:, [0, 1, 2, 3, 4, 6]]
+columns_to_scale = X.iloc[:, [0, 1, 2, 3, 6]]
 scaled_columns = scaler.fit_transform(columns_to_scale)
-X.iloc[:, [0, 1, 2, 3, 4, 6]] = scaled_columns
+X.iloc[:, [0, 1, 2, 3, 6]] = scaled_columns
 print(X)
 
 X_train, X_test, y1_train, y1_test = train_test_split(X, y1, test_size=0.2)
@@ -121,32 +125,30 @@ print('class weights: ', class_weights_dict)
 ####
 ####
 ####
-# Using logistic regression to predict weather to use extra protection or not (binary)
-print('\n****************predicting the need for extra protective packaging**************** \n')
-X_train, X_test, y1_train, y1_test = train_test_split(X, y1, test_size=0.2)
-
-class_weights = compute_class_weight('balanced', classes=np.unique(y1_train), y=y1_train)
-class_weights_dict = dict(enumerate(class_weights))
-print('class weights: ', class_weights_dict)
+# Using logistic regression to predict weather to use extra protection or not and in case of yes, which kind of extra protection
 
 # X_test = pd.DataFrame(X_test, columns= ["length", "width", "height", "weight", "fragility", "atseal", "stime", "alloy", "plastic", "glass"])
 class_weights = compute_sample_weight('balanced', y1_train)
 classifier1 = RandomForestClassifier(n_estimators=20, criterion='gini', random_state=0)
-lr = LogisticRegression(C=1e2, solver="sag", random_state=0)
-nb = GaussianNB()
+classifier11 = XGBClassifier()
+# nb = GaussianNB()
 classifier1.fit(X_train, y1_train, sample_weight=class_weights)
-lr.fit(X_train, y1_train, sample_weight=class_weights)
+classifier11.fit(X_train, y1_train, sample_weight=class_weights)
+
 y1_pred = classifier1.predict(X_test)
+
 cm = confusion_matrix(y1_test, y1_pred)
 
 print("confusion matrix \n", cm)
 print("\naccuracy score: ", accuracy_score(y1_test, y1_pred))
 print(classification_report(y1_test, y1_pred))
 
-print("logistic regression result on test set",lr.score(X_test, y1_test))
-print("logistic regression result on training set",lr.score(X_train, y1_train))
+print("xgb result on test set",classifier11.score(X_test, y1_test))
+print("xgb result on training set",classifier11.score(X_train, y1_train))
 print("random forest result on test set",classifier1.score(X_test, y1_test))
 print("random forest result on training set",classifier1.score(X_train, y1_train))
+
+y1_pred = le1.inverse_transform(y1_pred)
 
 filename = 'predict_protection.sav'
 pickle.dump(classifier1, open(filename, 'wb'))
@@ -206,8 +208,8 @@ pickle.dump(classifier1, open(filename, 'wb'))
 # ####
 # using the random forest classifier to predict the type of packaging to be used
 print('\n****************predicting the type of packaging material that should be used**************** \n')
-le = LabelEncoder()
-y2 = le.fit_transform(y2)
+le2 = LabelEncoder()
+y2 = le2.fit_transform(y2)
 
 X_train, X_test, y2_train, y2_test = train_test_split(X, y2, test_size=0.2)
 
@@ -239,7 +241,7 @@ print("xgboost result on test set:",classifier2.score(X_test, y2_test))
 print("xgboost result on training set:",classifier2.score(X_train, y2_train))
 
 
-y2_pred = le.inverse_transform(y2_pred)
+y2_pred = le2.inverse_transform(y2_pred)
 
 filename = 'predict_packaging.sav'
 pickle.dump(classifier22, open(filename, 'wb'))
@@ -309,9 +311,9 @@ user_input = df._append(series, ignore_index = True)
 print(user_input)
 
 
-columns_to_scale = user_input.iloc[:, [0, 1, 2, 3, 4, 6]]
+columns_to_scale = user_input.iloc[:, [0, 1, 2, 3, 6]]
 scaled_columns = scaler.transform(columns_to_scale)
-user_input.iloc[:, [0, 1, 2, 3, 4, 6]] = scaled_columns
+user_input.iloc[:, [0, 1, 2, 3, 6]] = scaled_columns
 
 print(user_input)
 
@@ -320,8 +322,8 @@ y1_user = classifier1.predict(user_input) #predicts the need for extra protectio
 
 y2_user = classifier22.predict(user_input) #predicts the packaging material to be used
 
-print("packaging material to be used:", y2_user, le.inverse_transform(y2_user))
-print("extra protection:", y1_user)
+print("packaging material to be used:", y2_user, le2.inverse_transform(y2_user))
+print("extra protection:", y1_user, le1.inverse_transform(y1_user))
 
 filename = 'scaler_model.sav'
 pickle.dump(scaler, open(filename, 'wb'))
