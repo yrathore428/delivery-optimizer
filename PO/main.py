@@ -152,6 +152,8 @@ y1_pred = le1.inverse_transform(y1_pred)
 
 filename = 'predict_protection.sav'
 pickle.dump(classifier1, open(filename, 'wb'))
+filename = 'protection_encoder.sav'
+pickle.dump(le1, open(filename, 'wb'))
 
 # ####
 # ####
@@ -245,6 +247,8 @@ y2_pred = le2.inverse_transform(y2_pred)
 
 filename = 'predict_packaging.sav'
 pickle.dump(classifier22, open(filename, 'wb'))
+filename = 'packaging_encoder.sav'
+pickle.dump(le2, open(filename, 'wb'))
 ####
 ####
 ####
